@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mainConfig>
+	<srv value="CORPSLIN03"/>
+	<dbn value="BD_FACTURACION"/>
+	<uid value="s9rOlYeF/5g="/>
+	<pwd value="TjIUuwSHgwE="/>
+	
+	<cna value="certificadoSLIN2017.p12"/>
+	<cpa value="c9x3b7HuBQ5PR92qiokBdw=="/>
+</mainConfig>

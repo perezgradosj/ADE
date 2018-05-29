@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="624f1a9c-5533-4634-a377-1b07117f7697" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://www.sunat.gob.pe:443/ol-ti-itcpfegem/billService?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="billService.wsdl" MetadataType="Wsdl" ID="c5eaae2a-1cd7-4b5a-9adf-ff40ad81ea28" SourceId="1" SourceUrl="https://www.sunat.gob.pe/ol-ti-itcpfegem/billService?ns1.wsdl" />
+    <MetadataFile FileName="billService1.wsdl" MetadataType="Wsdl" ID="236a7638-0bcb-4a87-8516-00c4baa41ea3" SourceId="1" SourceUrl="https://www.sunat.gob.pe/ol-ti-itcpfegem/billService?ns2.wsdl" />
+    <MetadataFile FileName="billService2.wsdl" MetadataType="Wsdl" ID="07a19fb2-1492-4aae-a0b9-9922a21b7fcf" SourceId="1" SourceUrl="https://www.sunat.gob.pe/ol-ti-itcpfegem/billService?wsdl" />
+    <MetadataFile FileName="billService.xsd" MetadataType="Schema" ID="ebc7fe8a-8378-4052-85eb-50ac523bad97" SourceId="1" SourceUrl="https://www.sunat.gob.pe/ol-ti-itcpfegem/billService.xsd2.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Invoice xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent><AdditionalInformationSLIN><Document><ID>20537924218-01-F001-00000037</ID></Document><Extra><ExLinea>1</ExLinea><ExDato><![CDATA[LA PUNTA]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>2</ExLinea><ExDato><![CDATA[F*F001-00000037]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>3</ExLinea><ExDato><![CDATA[]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>4</ExLinea><ExDato><![CDATA[31/12/2017]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>5</ExLinea><ExDato><![CDATA[]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>6</ExLinea><ExDato><![CDATA[001 - OFICINA]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>7</ExLinea><ExDato><![CDATA[CONT - CONTADO]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>8</ExLinea><ExDato><![CDATA[]]></ExDato><ExTipo></ExTipo></Extra></AdditionalInformationSLIN></ext:ExtensionContent>
+		</ext:UBLExtension>
+		<ext:UBLExtension>
+			<ext:ExtensionContent><sac:AdditionalInformation><sac:AdditionalMonetaryTotal><cbc:ID>1001</cbc:ID><cbc:PayableAmount currencyID="USD">5143.95</cbc:PayableAmount></sac:AdditionalMonetaryTotal><sac:AdditionalMonetaryTotal><cbc:ID>1002</cbc:ID><cbc:PayableAmount currencyID="USD">0.00</cbc:PayableAmount></sac:AdditionalMonetaryTotal><sac:AdditionalMonetaryTotal><cbc:ID>1003</cbc:ID><cbc:PayableAmount currencyID="USD">0.00</cbc:PayableAmount></sac:AdditionalMonetaryTotal><sac:AdditionalProperty><cbc:ID>1000</cbc:ID><cbc:Value>SEIS MIL SESENTA Y NUEVE Y 86/100 DOLARES AMERICANOS</cbc:Value></sac:AdditionalProperty><sac:SUNATTransaction><cbc:ID>01</cbc:ID></sac:SUNATTransaction></sac:AdditionalInformation></ext:ExtensionContent>
+		</ext:UBLExtension>
+		<ext:UBLExtension>
+			<ext:ExtensionContent><ds:Signature Id="SignatureSP"><SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>9WAX3cVRkYs2BzPplOcEj4+SI6M=</DigestValue></Reference></SignedInfo><SignatureValue xmlns="http://www.w3.org/2000/09/xmldsig#">QDiaYduKYrA/Al+/LVDz9iuvBlWKcjxyakb53+XW2cX6KOHDb6ic3YJNaVkaUhVR3f2fkBHvvxv1oevxIOgQTDRJh4dR+rn59dlRiV08TOwVw/ndjQbTrF4znm8Ul4jAyHkttbDkdSrHXP0DEeTCImQbwhAR6LfwgJgU78sO4RrCjnA2rXvLshTNqGqqeW3ddeS3AVSItbhp1hUOOw1vYa4+jE/0q4sGBiuTpXwCur5Ux+vtHWSBGvM/ueTpehYNV9BtWqDjlHvX8vf9RkQ4Syf8agVAKrMPPqUToyfWR641SB986nTjNo6AxKl6w5JgtBJ1WFetYCt7qKfIGRyrAw==</SignatureValue><KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><X509Data><X509SubjectName>CN=Tony Isuiza Riva + E=tisuiza@gamma.com.pe, OU=RUC: 20537924218, O=Generadores Gamma S.A.C., L=Lima, C=PE</X509SubjectName><X509Certificate>MIIFUDCCBDigAwIBAgIQTh6UhSE90xcAAAAATDW5MDANBgkqhkiG9w0BAQsFADCBpTELMAkGA1UEBhMCVVMxFjAUBgNVBAoTDUVudHJ1c3QsIEluYy4xOTA3BgNVBAsTMHd3dy5lbnRydXN0Lm5ldC9DUFMgaXMgaW5jb3Jwb3JhdGVkIGJ5IHJlZmVyZW5jZTEfMB0GA1UECxMWKGMpIDIwMTAgRW50cnVzdCwgSW5jLjEiMCAGA1UEAxMZRW50cnVzdCBDbGFzcyAyIENsaWVudCBDQTAeFw0xNzA1MTIxNjA5NTZaFw0xODA1MTIxNjM5NTNaMIGYMQswCQYDVQQGEwJQRTENMAsGA1UEBxMETGltYTEhMB8GA1UEChMYR2VuZXJhZG9yZXMgR2FtbWEgUy5BLkMuMRkwFwYDVQQLExBSVUM6IDIwNTM3OTI0MjE4MTwwFwYDVQQDExBUb255IElzdWl6YSBSaXZhMCEGCSqGSIb3DQEJARYUdGlzdWl6YUBnYW1tYS5jb20ucGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDqW7iWQVV8LJ3GblnZmJc8GiXbnCdYvfHKYLYJz8tpvJsfRTwf8V6glwUnbXSwbBmXyyo/5P9FB7I64UawBSHtUzeA7DLdDoT09h1x9XTqMGXD5/hiMZjyg4DSqlzgwWTSqwyyW/XWRZ3AAIBysDs/7Umex6rT2MbaHRNHuGJvXvve2TREchZqz73ntmWiDGO9jpY1FaZWAAWjwjqnSpTmU+qC0xmmEVBYYaXs9Uqo520r4xrYKmfFH+hCk4XQWV4sniTDK2sU78yi060wVcIIJ82hRjJ4sWUJhlePaT+kB10yQWjvk4jk/96MbhpXGRWiZdH5Pldf7fDe5xypy6S3AgMBAAGjggGFMIIBgTAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMEIGA1UdIAQ7MDkwNwYLYIZIAYb6bAoBBAIwKDAmBggrBgEFBQcCARYaaHR0cDovL3d3dy5lbnRydXN0Lm5ldC9ycGEwagYIKwYBBQUHAQEEXjBcMCMGCCsGAQUFBzABhhdodHRwOi8vb2NzcC5lbnRydXN0Lm5ldDA1BggrBgEFBQcwAoYpaHR0cDovL2FpYS5lbnRydXN0Lm5ldC8yMDQ4Y2xhc3Myc2hhMi5jZXIwNAYDVR0fBC0wKzApoCegJYYjaHR0cDovL2NybC5lbnRydXN0Lm5ldC9jbGFzczJjYS5jcmwwHwYDVR0RBBgwFoEUdGlzdWl6YUBnYW1tYS5jb20ucGUwHwYDVR0jBBgwFoAUCZGluunyLip1381+/nfK8t5rmyQwHQYDVR0OBBYEFGqKPkwPuOdP4Ex6OMYWeVpXmv92MAkGA1UdEwQCMAAwDQYJKoZIhvcNAQELBQADggEBACpzW1q4UoSRWH8rArPQ3ATazclkwCEteFqLdvxOrOVuyn56Hk4NYRiOthkMjC15Qsw30W3maZ0a+n1+3SGk8iG9sPTtSqBqgWZakwZ7Wf3t+qY3M3mDCzxcV+gGXVh2D6rhRqtyQlY/Yd9pPLqPiwf1Od4BqGh7Qls96bMJJXzXVrx5WMj3nxfO4SPgQ9/XSkTgeN2DBnlY5Z0uyOwR9EgOGn+l4B9DpzYpG3I/o0mPOqJJ71R5bWUHm/hAukNSWzj/c8wuY4A/YRd4Clxu0dwhYQ7bs8n/imo4SCIacZmJuQMTa9DIWGUEudjSZ3tMqgBs4SbdPa6aGcsgpLthODE=</X509Certificate></X509Data></KeyInfo></ds:Signature></ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+	<cbc:CustomizationID>1.1</cbc:CustomizationID>
+	<cbc:ID>F001-00000037</cbc:ID>
+	<cbc:IssueDate>2017-12-30</cbc:IssueDate>
+	<cbc:InvoiceTypeCode>01</cbc:InvoiceTypeCode>
+	<cbc:DocumentCurrencyCode>USD</cbc:DocumentCurrencyCode>
+	<cac:OrderReference>
+		<cbc:ID>502-21122017</cbc:ID>
+	</cac:OrderReference>
+	<cac:Signature>
+		<cbc:ID>IDSign20537924218</cbc:ID>
+		<cac:SignatoryParty>
+			<cac:PartyIdentification>
+				<cbc:ID>20537924218</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name><![CDATA[GENERADORES GAMMA S.A.C]]></cbc:Name>
+			</cac:PartyName>
+		</cac:SignatoryParty>
+		<cac:DigitalSignatureAttachment>
+			<cac:ExternalReference>
+				<cbc:URI>#signature20537924218</cbc:URI>
+			</cac:ExternalReference>
+		</cac:DigitalSignatureAttachment>
+	</cac:Signature>
+	<cac:AccountingSupplierParty>
+		<cbc:CustomerAssignedAccountID>20537924218</cbc:CustomerAssignedAccountID>
+		<cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+		<cac:Party>
+			<cac:PartyName>
+				<cbc:Name><![CDATA[GAMMA]]></cbc:Name>
+			</cac:PartyName>
+			<cac:PostalAddress>
+				<cbc:ID>150119</cbc:ID>
+				<cbc:StreetName><![CDATA[AV. LOS EUCALIPTOS #371 URB.STA.GENOVEVA - LURIN-LIMA-LIMA]]></cbc:StreetName>
+				<cbc:CitySubdivisionName><![CDATA[-]]></cbc:CitySubdivisionName>
+				<cbc:CityName><![CDATA[LIMA]]></cbc:CityName>
+				<cbc:CountrySubentity><![CDATA[LIMA]]></cbc:CountrySubentity>
+				<cbc:District><![CDATA[LURIN]]></cbc:District>
+				<cac:Country>
+					<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName><![CDATA[GENERADORES GAMMA S.A.C]]></cbc:RegistrationName>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:AccountingSupplierParty>
+	<cac:AccountingCustomerParty>
+		<cbc:CustomerAssignedAccountID>20211122324</cbc:CustomerAssignedAccountID>
+		<cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+		<cac:Party>
+			<cac:PartyName>
+				<cbc:Name><![CDATA[FEDERACION PERUANA DE REMO]]></cbc:Name>
+			</cac:PartyName>
+			<cac:PostalAddress>
+				<cbc:ID>070105</cbc:ID>
+				<cbc:StreetName><![CDATA[CAL.GARCIA Y GARCIA NRO. 494 PROV. CONST. DEL CALLAO - PROV. CONST. DEL CALLAO - LA PUNTA]]></cbc:StreetName>
+				<cbc:CitySubdivisionName><![CDATA[-]]></cbc:CitySubdivisionName>
+				<cbc:CityName><![CDATA[CALLAO]]></cbc:CityName>
+				<cbc:CountrySubentity><![CDATA[CALLAO]]></cbc:CountrySubentity>
+				<cbc:District><![CDATA[LA PUNTA]]></cbc:District>
+				<cac:Country>
+					<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName><![CDATA[FEDERACION PERUANA DE REMO]]></cbc:RegistrationName>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:AccountingCustomerParty>
+	<cac:TaxTotal>
+		<cbc:TaxAmount currencyID="USD">925.91</cbc:TaxAmount>
+		<cac:TaxSubtotal>
+			<cbc:TaxAmount currencyID="USD">925.91</cbc:TaxAmount>
+			<cac:TaxCategory>
+				<cac:TaxScheme>
+					<cbc:ID>1000</cbc:ID>
+					<cbc:Name>IGV</cbc:Name>
+					<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+				</cac:TaxScheme>
+			</cac:TaxCategory>
+		</cac:TaxSubtotal>
+	</cac:TaxTotal>
+	<cac:LegalMonetaryTotal>
+		<cbc:PayableAmount currencyID="USD">6069.86</cbc:PayableAmount>
+	</cac:LegalMonetaryTotal>
+	<cac:InvoiceLine>
+		<cbc:ID>1</cbc:ID>
+		<cbc:InvoicedQuantity unitCode="NIU">1.000</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="USD">5143.95</cbc:LineExtensionAmount>
+		<cac:PricingReference>
+			<cac:AlternativeConditionPrice>
+				<cbc:PriceAmount currencyID="USD">6069.86</cbc:PriceAmount>
+				<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+			</cac:AlternativeConditionPrice>
+		</cac:PricingReference>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="USD">925.91</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxableAmount currencyID="USD">0.00</cbc:TaxableAmount>
+				<cbc:TaxAmount currencyID="USD">925.91</cbc:TaxAmount>
+				<cbc:Percent>18.00</cbc:Percent>
+				<cac:TaxCategory>
+					<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+					<cac:TaxScheme>
+						<cbc:ID>1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+		<cac:Item>
+			<cbc:Description><![CDATA[GRUPO ELECTROGENO INSONORIZADO GL 06I;; SERIE DE MOTOR: F1417040310;; SERIE DE GRUPO: 188-65-1974]]></cbc:Description>
+			<cac:SellersItemIdentification>
+				<cbc:ID><![CDATA[2010200261]]></cbc:ID>
+			</cac:SellersItemIdentification>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="USD">5143.95</cbc:PriceAmount>
+		</cac:Price>
+	</cac:InvoiceLine>
+</Invoice>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Invoice xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent><AdditionalInformationSLIN><Document><ID>20537924218-01-F001-00000063</ID></Document><Extra><ExLinea>1</ExLinea><ExDato><![CDATA[SAN ISIDRO]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>2</ExLinea><ExDato><![CDATA[F*F001-00000063]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>3</ExLinea><ExDato><![CDATA[]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>4</ExLinea><ExDato><![CDATA[22/02/2018]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>5</ExLinea><ExDato><![CDATA[]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>6</ExLinea><ExDato><![CDATA[016 - EMEZA]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>7</ExLinea><ExDato><![CDATA[F30 - FACTURA DE 30 DIAS]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>8</ExLinea><ExDato><![CDATA[]]></ExDato><ExTipo></ExTipo></Extra></AdditionalInformationSLIN></ext:ExtensionContent>
+		</ext:UBLExtension>
+		<ext:UBLExtension>
+			<ext:ExtensionContent><sac:AdditionalInformation><sac:AdditionalMonetaryTotal><cbc:ID>1001</cbc:ID><cbc:PayableAmount currencyID="PEN">6129.68</cbc:PayableAmount></sac:AdditionalMonetaryTotal><sac:AdditionalMonetaryTotal><cbc:ID>1002</cbc:ID><cbc:PayableAmount currencyID="PEN">0.00</cbc:PayableAmount></sac:AdditionalMonetaryTotal><sac:AdditionalMonetaryTotal><cbc:ID>1003</cbc:ID><cbc:PayableAmount currencyID="PEN">0.00</cbc:PayableAmount></sac:AdditionalMonetaryTotal><sac:AdditionalMonetaryTotal><cbc:ID>2003</cbc:ID><cbc:PayableAmount currencyID="PEN">723.30</cbc:PayableAmount><cbc:Percent>10.00</cbc:Percent></sac:AdditionalMonetaryTotal><sac:AdditionalProperty><cbc:ID>1000</cbc:ID><cbc:Value>SIETE MIL DOSCIENTOS TREINTA Y TRES Y 02/100 SOLES</cbc:Value></sac:AdditionalProperty><sac:AdditionalProperty><cbc:ID>3000</cbc:ID><cbc:Value>22</cbc:Value></sac:AdditionalProperty><sac:AdditionalProperty><cbc:ID>3001</cbc:ID><cbc:Value>00068275229</cbc:Value></sac:AdditionalProperty><sac:SUNATTransaction><cbc:ID>01</cbc:ID></sac:SUNATTransaction></sac:AdditionalInformation></ext:ExtensionContent>
+		</ext:UBLExtension>
+		<ext:UBLExtension>
+			<ext:ExtensionContent><ds:Signature Id="SignatureSP"><SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>DFBvxOKjgBt5xgopwwiGgNoXppI=</DigestValue></Reference></SignedInfo><SignatureValue xmlns="http://www.w3.org/2000/09/xmldsig#">sid4AjhVHNlTDCBnqhIVhiHGYPGZWd8jvv/Ft2sv/EEnsyNgtshoWuOqEiPczYpuEawBkX/V0JqAUtTUkeRVmb5JGKIzaDWxS7nyHYwb9B4T4RY9w8k9UHj5s304IeH+E+dImECnURbMftcPl2nmpZgqNPcYkk2un7zf5FmQ9TKOr0F7bEUhv6yUqsgmfqeVXJPTb8jJt80Tjxuuq6LhkWgTGC5ewSwIlgtZz+NcKLlxL+kDu5pcIgShh/d0tfohmJkQF90zp82Qrl4onN1zy3CO9mLkIQoWgqlH2dCDUe/aiLJYvLUjOq0SLQAoaI38Rd5wUxID+zX8UzAom1TyBw==</SignatureValue><KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><X509Data><X509SubjectName>CN=Tony Isuiza Riva + E=tisuiza@gamma.com.pe, OU=RUC: 20537924218, O=Generadores Gamma S.A.C., L=Lima, C=PE</X509SubjectName><X509Certificate>MIIFUDCCBDigAwIBAgIQTh6UhSE90xcAAAAATDW5MDANBgkqhkiG9w0BAQsFADCBpTELMAkGA1UEBhMCVVMxFjAUBgNVBAoTDUVudHJ1c3QsIEluYy4xOTA3BgNVBAsTMHd3dy5lbnRydXN0Lm5ldC9DUFMgaXMgaW5jb3Jwb3JhdGVkIGJ5IHJlZmVyZW5jZTEfMB0GA1UECxMWKGMpIDIwMTAgRW50cnVzdCwgSW5jLjEiMCAGA1UEAxMZRW50cnVzdCBDbGFzcyAyIENsaWVudCBDQTAeFw0xNzA1MTIxNjA5NTZaFw0xODA1MTIxNjM5NTNaMIGYMQswCQYDVQQGEwJQRTENMAsGA1UEBxMETGltYTEhMB8GA1UEChMYR2VuZXJhZG9yZXMgR2FtbWEgUy5BLkMuMRkwFwYDVQQLExBSVUM6IDIwNTM3OTI0MjE4MTwwFwYDVQQDExBUb255IElzdWl6YSBSaXZhMCEGCSqGSIb3DQEJARYUdGlzdWl6YUBnYW1tYS5jb20ucGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDqW7iWQVV8LJ3GblnZmJc8GiXbnCdYvfHKYLYJz8tpvJsfRTwf8V6glwUnbXSwbBmXyyo/5P9FB7I64UawBSHtUzeA7DLdDoT09h1x9XTqMGXD5/hiMZjyg4DSqlzgwWTSqwyyW/XWRZ3AAIBysDs/7Umex6rT2MbaHRNHuGJvXvve2TREchZqz73ntmWiDGO9jpY1FaZWAAWjwjqnSpTmU+qC0xmmEVBYYaXs9Uqo520r4xrYKmfFH+hCk4XQWV4sniTDK2sU78yi060wVcIIJ82hRjJ4sWUJhlePaT+kB10yQWjvk4jk/96MbhpXGRWiZdH5Pldf7fDe5xypy6S3AgMBAAGjggGFMIIBgTAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMEIGA1UdIAQ7MDkwNwYLYIZIAYb6bAoBBAIwKDAmBggrBgEFBQcCARYaaHR0cDovL3d3dy5lbnRydXN0Lm5ldC9ycGEwagYIKwYBBQUHAQEEXjBcMCMGCCsGAQUFBzABhhdodHRwOi8vb2NzcC5lbnRydXN0Lm5ldDA1BggrBgEFBQcwAoYpaHR0cDovL2FpYS5lbnRydXN0Lm5ldC8yMDQ4Y2xhc3Myc2hhMi5jZXIwNAYDVR0fBC0wKzApoCegJYYjaHR0cDovL2NybC5lbnRydXN0Lm5ldC9jbGFzczJjYS5jcmwwHwYDVR0RBBgwFoEUdGlzdWl6YUBnYW1tYS5jb20ucGUwHwYDVR0jBBgwFoAUCZGluunyLip1381+/nfK8t5rmyQwHQYDVR0OBBYEFGqKPkwPuOdP4Ex6OMYWeVpXmv92MAkGA1UdEwQCMAAwDQYJKoZIhvcNAQELBQADggEBACpzW1q4UoSRWH8rArPQ3ATazclkwCEteFqLdvxOrOVuyn56Hk4NYRiOthkMjC15Qsw30W3maZ0a+n1+3SGk8iG9sPTtSqBqgWZakwZ7Wf3t+qY3M3mDCzxcV+gGXVh2D6rhRqtyQlY/Yd9pPLqPiwf1Od4BqGh7Qls96bMJJXzXVrx5WMj3nxfO4SPgQ9/XSkTgeN2DBnlY5Z0uyOwR9EgOGn+l4B9DpzYpG3I/o0mPOqJJ71R5bWUHm/hAukNSWzj/c8wuY4A/YRd4Clxu0dwhYQ7bs8n/imo4SCIacZmJuQMTa9DIWGUEudjSZ3tMqgBs4SbdPa6aGcsgpLthODE=</X509Certificate></X509Data></KeyInfo></ds:Signature></ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+	<cbc:CustomizationID>1.1</cbc:CustomizationID>
+	<cbc:ID>F001-00000063</cbc:ID>
+	<cbc:IssueDate>2018-01-23</cbc:IssueDate>
+	<cbc:InvoiceTypeCode>01</cbc:InvoiceTypeCode>
+	<cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+	<cac:OrderReference>
+		<cbc:ID>26897</cbc:ID>
+	</cac:OrderReference>
+	<cac:Signature>
+		<cbc:ID>IDSign20537924218</cbc:ID>
+		<cac:SignatoryParty>
+			<cac:PartyIdentification>
+				<cbc:ID>20537924218</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name><![CDATA[GENERADORES GAMMA S.A.C]]></cbc:Name>
+			</cac:PartyName>
+		</cac:SignatoryParty>
+		<cac:DigitalSignatureAttachment>
+			<cac:ExternalReference>
+				<cbc:URI>#signature20537924218</cbc:URI>
+			</cac:ExternalReference>
+		</cac:DigitalSignatureAttachment>
+	</cac:Signature>
+	<cac:AccountingSupplierParty>
+		<cbc:CustomerAssignedAccountID>20537924218</cbc:CustomerAssignedAccountID>
+		<cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+		<cac:Party>
+			<cac:PartyName>
+				<cbc:Name><![CDATA[GAMMA]]></cbc:Name>
+			</cac:PartyName>
+			<cac:PostalAddress>
+				<cbc:ID>150119</cbc:ID>
+				<cbc:StreetName><![CDATA[AV. LOS EUCALIPTOS #371 URB.STA.GENOVEVA - LURIN-LIMA-LIMA]]></cbc:StreetName>
+				<cbc:CitySubdivisionName><![CDATA[-]]></cbc:CitySubdivisionName>
+				<cbc:CityName><![CDATA[LIMA]]></cbc:CityName>
+				<cbc:CountrySubentity><![CDATA[LIMA]]></cbc:CountrySubentity>
+				<cbc:District><![CDATA[LURIN]]></cbc:District>
+				<cac:Country>
+					<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName><![CDATA[GENERADORES GAMMA S.A.C]]></cbc:RegistrationName>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:AccountingSupplierParty>
+	<cac:AccountingCustomerParty>
+		<cbc:CustomerAssignedAccountID>20266409461</cbc:CustomerAssignedAccountID>
+		<cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+		<cac:Party>
+			<cac:PartyName>
+				<cbc:Name><![CDATA[OPEN PLAZA S.A.]]></cbc:Name>
+			</cac:PartyName>
+			<cac:PostalAddress>
+				<cbc:ID>150131</cbc:ID>
+				<cbc:StreetName><![CDATA[AV. PASEO DE LA REPUBLICA NRO. 3220 LIMA - LIMA - SAN ISIDRO]]></cbc:StreetName>
+				<cbc:CitySubdivisionName><![CDATA[-]]></cbc:CitySubdivisionName>
+				<cbc:CityName><![CDATA[LIMA]]></cbc:CityName>
+				<cbc:CountrySubentity><![CDATA[LIMA]]></cbc:CountrySubentity>
+				<cbc:District><![CDATA[SAN ISIDRO]]></cbc:District>
+				<cac:Country>
+					<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName><![CDATA[OPEN PLAZA S.A.]]></cbc:RegistrationName>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:AccountingCustomerParty>
+	<cac:TaxTotal>
+		<cbc:TaxAmount currencyID="PEN">1103.34</cbc:TaxAmount>
+		<cac:TaxSubtotal>
+			<cbc:TaxAmount currencyID="PEN">1103.34</cbc:TaxAmount>
+			<cac:TaxCategory>
+				<cac:TaxScheme>
+					<cbc:ID>1000</cbc:ID>
+					<cbc:Name>IGV</cbc:Name>
+					<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+				</cac:TaxScheme>
+			</cac:TaxCategory>
+		</cac:TaxSubtotal>
+	</cac:TaxTotal>
+	<cac:LegalMonetaryTotal>
+		<cbc:PayableAmount currencyID="PEN">7233.02</cbc:PayableAmount>
+	</cac:LegalMonetaryTotal>
+	<cac:InvoiceLine>
+		<cbc:ID>1</cbc:ID>
+		<cbc:InvoicedQuantity unitCode="NIU">1.000</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="PEN">556.58</cbc:LineExtensionAmount>
+		<cac:PricingReference>
+			<cac:AlternativeConditionPrice>
+				<cbc:PriceAmount currencyID="PEN">656.76</cbc:PriceAmount>
+				<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+			</cac:AlternativeConditionPrice>
+		</cac:PricingReference>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="PEN">100.18</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxableAmount currencyID="PEN">0.00</cbc:TaxableAmount>
+				<cbc:TaxAmount currencyID="PEN">100.18</cbc:TaxAmount>
+				<cbc:Percent>18.00</cbc:Percent>
+				<cac:TaxCategory>
+					<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+					<cac:TaxScheme>
+						<cbc:ID>1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+		<cac:Item>
+			<cbc:Description><![CDATA[SERVICIO DE MANTENIMIENTO PREVENTIVO;; GRUPO ELECTROGENO - CHICLAYO]]></cbc:Description>
+			<cac:SellersItemIdentification>
+				<cbc:ID><![CDATA[8020100002]]></cbc:ID>
+			</cac:SellersItemIdentification>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="PEN">556.58</cbc:PriceAmount>
+		</cac:Price>
+	</cac:InvoiceLine>
+	<cac:InvoiceLine>
+		<cbc:ID>2</cbc:ID>
+		<cbc:InvoicedQuantity unitCode="NIU">1.000</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="PEN">709.65</cbc:LineExtensionAmount>
+		<cac:PricingReference>
+			<cac:AlternativeConditionPrice>
+				<cbc:PriceAmount currencyID="PEN">837.39</cbc:PriceAmount>
+				<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+			</cac:AlternativeConditionPrice>
+		</cac:PricingReference>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="PEN">127.74</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxableAmount currencyID="PEN">0.00</cbc:TaxableAmount>
+				<cbc:TaxAmount currencyID="PEN">127.74</cbc:TaxAmount>
+				<cbc:Percent>18.00</cbc:Percent>
+				<cac:TaxCategory>
+					<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+					<cac:TaxScheme>
+						<cbc:ID>1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+		<cac:Item>
+			<cbc:Description><![CDATA[SERVICIO DE MANTENIMIENTO PREVENTIVO;; GRUPO ELECTROGENO - PIURA]]></cbc:Description>
+			<cac:SellersItemIdentification>
+				<cbc:ID><![CDATA[8020100002]]></cbc:ID>
+			</cac:SellersItemIdentification>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="PEN">709.65</cbc:PriceAmount>
+		</cac:Price>
+	</cac:InvoiceLine>
+	<cac:InvoiceLine>
+		<cbc:ID>3</cbc:ID>
+		<cbc:InvoicedQuantity unitCode="NIU">1.000</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="PEN">4384.21</cbc:LineExtensionAmount>
+		<cac:PricingReference>
+			<cac:AlternativeConditionPrice>
+				<cbc:PriceAmount currencyID="PEN">5173.37</cbc:PriceAmount>
+				<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+			</cac:AlternativeConditionPrice>
+		</cac:PricingReference>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="PEN">789.16</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxableAmount currencyID="PEN">0.00</cbc:TaxableAmount>
+				<cbc:TaxAmount currencyID="PEN">789.16</cbc:TaxAmount>
+				<cbc:Percent>18.00</cbc:Percent>
+				<cac:TaxCategory>
+					<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+					<cac:TaxScheme>
+						<cbc:ID>1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+		<cac:Item>
+			<cbc:Description><![CDATA[SERVICIO DE MANTENIMIENTO PREVENTIVO;; GRUPO ELECTROGENO - CAJAMARCA]]></cbc:Description>
+			<cac:SellersItemIdentification>
+				<cbc:ID><![CDATA[8020100002]]></cbc:ID>
+			</cac:SellersItemIdentification>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="PEN">4384.21</cbc:PriceAmount>
+		</cac:Price>
+	</cac:InvoiceLine>
+	<cac:InvoiceLine>
+		<cbc:ID>4</cbc:ID>
+		<cbc:InvoicedQuantity unitCode="NIU">1.000</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="PEN">239.62</cbc:LineExtensionAmount>
+		<cac:PricingReference>
+			<cac:AlternativeConditionPrice>
+				<cbc:PriceAmount currencyID="PEN">282.75</cbc:PriceAmount>
+				<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+			</cac:AlternativeConditionPrice>
+		</cac:PricingReference>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="PEN">43.13</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxableAmount currencyID="PEN">0.00</cbc:TaxableAmount>
+				<cbc:TaxAmount currencyID="PEN">43.13</cbc:TaxAmount>
+				<cbc:Percent>18.00</cbc:Percent>
+				<cac:TaxCategory>
+					<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+					<cac:TaxScheme>
+						<cbc:ID>1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+		<cac:Item>
+			<cbc:Description><![CDATA[SERVICIO DE MANTENIMIENTO PREVENTIVO;; GRUPO ELECTROGENO - PUCALLPA]]></cbc:Description>
+			<cac:SellersItemIdentification>
+				<cbc:ID><![CDATA[8020100002]]></cbc:ID>
+			</cac:SellersItemIdentification>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="PEN">239.62</cbc:PriceAmount>
+		</cac:Price>
+	</cac:InvoiceLine>
+	<cac:InvoiceLine>
+		<cbc:ID>5</cbc:ID>
+		<cbc:InvoicedQuantity unitCode="NIU">1.000</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="PEN">239.62</cbc:LineExtensionAmount>
+		<cac:PricingReference>
+			<cac:AlternativeConditionPrice>
+				<cbc:PriceAmount currencyID="PEN">282.75</cbc:PriceAmount>
+				<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+			</cac:AlternativeConditionPrice>
+		</cac:PricingReference>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="PEN">43.13</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxableAmount currencyID="PEN">0.00</cbc:TaxableAmount>
+				<cbc:TaxAmount currencyID="PEN">43.13</cbc:TaxAmount>
+				<cbc:Percent>18.00</cbc:Percent>
+				<cac:TaxCategory>
+					<cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+					<cac:TaxScheme>
+						<cbc:ID>1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+		<cac:Item>
+			<cbc:Description><![CDATA[SERVICIO DE MANTENIMIENTO PREVENTIVO;; GRUPO ELECTROGENO - HUANUCO]]></cbc:Description>
+			<cac:SellersItemIdentification>
+				<cbc:ID><![CDATA[8020100002]]></cbc:ID>
+			</cac:SellersItemIdentification>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="PEN">239.62</cbc:PriceAmount>
+		</cac:Price>
+	</cac:InvoiceLine>
+</Invoice>

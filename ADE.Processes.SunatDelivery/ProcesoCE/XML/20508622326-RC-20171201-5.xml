@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<SummaryDocuments xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns="urn:sunat:names:specification:ubl:peru:schema:xsd:SummaryDocuments-1">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent><ds:Signature Id="SignatureSP"><SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>+dd3Ky14hVr+k95ObRviPXokUnc=</DigestValue></Reference></SignedInfo><SignatureValue xmlns="http://www.w3.org/2000/09/xmldsig#">meXdZosM9q3xSAsDE2akePGz2fw/unhJy60+Q+coi4Rlh2rYMPD3Ida+++VBa6lHd6inOdXWacLD5uD487Vfv4ARGGk+DaTmmLjauRrrlQVFRz52cP5+QRTs4xjePODccYq44H9ntK39QU0IYyMuDGhicrQ8vpsxvp3LtYShfWCdhua2dFkp9uxzhFGGutlxPdMdOZnCpYGzFCxMbrkjkSfPZxdStPq7bsvks/hytBWMD1KavRjyNJuJYS46jviMw3bcRyjT5aqFk6CKt5jvOJn3m7dRlnuQAUhupYQcQvKMgvFrgVxW8xqy4QCMrz063jqFbzA+ORsuF5gIcv9WBg==</SignatureValue><KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><X509Data><X509SubjectName>E=alicia.manzanares@klm.com, CN=ROSA ALICIA MANZANARES SALAZAR, OU=validated by IOFE S.A.C., OU=issued by IOFD, OU=FINANZAS, OU=RUC: 20100142041, O=SOCIETE AIR FRANCE SUCURSAL EN EL PERU, L=LIMA, C=PE, Phone=511 4150919</X509SubjectName><X509Certificate>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</X509Certificate></X509Data></KeyInfo></ds:Signature></ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+	<cbc:CustomizationID>1.1</cbc:CustomizationID>
+	<cbc:ID>RC-20171201-5</cbc:ID>
+	<cbc:ReferenceDate>2017-11-13</cbc:ReferenceDate>
+	<cbc:IssueDate>2017-12-01</cbc:IssueDate>
+	<cbc:Note><![CDATA[CONSOLIDADO DE BOLETAS DE VENTA - CORPORACION SLIN SAC]]></cbc:Note>
+	<cac:Signature>
+		<cbc:ID>RC-20171201-5</cbc:ID>
+		<cac:SignatoryParty>
+			<cac:PartyIdentification>
+				<cbc:ID>20508622326</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name><![CDATA[CORPORACION SLIN SAC]]></cbc:Name>
+			</cac:PartyName>
+		</cac:SignatoryParty>
+		<cac:DigitalSignatureAttachment>
+			<cac:ExternalReference>
+				<cbc:URI>RC-20171201-5</cbc:URI>
+			</cac:ExternalReference>
+		</cac:DigitalSignatureAttachment>
+	</cac:Signature>
+	<cac:AccountingSupplierParty>
+		<cbc:CustomerAssignedAccountID>20508622326</cbc:CustomerAssignedAccountID>
+		<cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+		<cac:Party>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName><![CDATA[CORPORACION SLIN SAC]]></cbc:RegistrationName>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:AccountingSupplierParty>
+	<sac:SummaryDocumentsLine>
+		<cbc:LineID>1</cbc:LineID>
+		<cbc:DocumentTypeCode>03</cbc:DocumentTypeCode>
+		<cbc:ID>B001-1</cbc:ID>
+		<cac:AccountingCustomerParty>
+			<cbc:CustomerAssignedAccountID>10746419916</cbc:CustomerAssignedAccountID>
+			<cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+		</cac:AccountingCustomerParty>
+		<cac:Status>
+			<cbc:ConditionCode>1</cbc:ConditionCode>
+		</cac:Status>
+		<sac:TotalAmount currencyID="PEN">2697.00</sac:TotalAmount>
+		<sac:BillingPayment>
+			<cbc:PaidAmount currencyID="PEN">2285.82</cbc:PaidAmount>
+			<cbc:InstructionID>01</cbc:InstructionID>
+		</sac:BillingPayment>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="PEN">411.18</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxAmount currencyID="PEN">411.18</cbc:TaxAmount>
+				<cac:TaxCategory>
+					<cac:TaxScheme>
+						<cbc:ID>1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+	</sac:SummaryDocumentsLine>
+	<sac:SummaryDocumentsLine>
+		<cbc:LineID>2</cbc:LineID>
+		<cbc:DocumentTypeCode>03</cbc:DocumentTypeCode>
+		<cbc:ID>B001-2</cbc:ID>
+		<cac:AccountingCustomerParty>
+			<cbc:CustomerAssignedAccountID>10746419916</cbc:CustomerAssignedAccountID>
+			<cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+		</cac:AccountingCustomerParty>
+		<cac:Status>
+			<cbc:ConditionCode>3</cbc:ConditionCode>
+		</cac:Status>
+		<sac:TotalAmount currencyID="PEN">2697.00</sac:TotalAmount>
+		<sac:BillingPayment>
+			<cbc:PaidAmount currencyID="PEN">2285.82</cbc:PaidAmount>
+			<cbc:InstructionID>01</cbc:InstructionID>
+		</sac:BillingPayment>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="PEN">411.18</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxAmount currencyID="PEN">411.18</cbc:TaxAmount>
+				<cac:TaxCategory>
+					<cac:TaxScheme>
+						<cbc:ID>1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+	</sac:SummaryDocumentsLine>
+	<sac:SummaryDocumentsLine>
+		<cbc:LineID>3</cbc:LineID>
+		<cbc:DocumentTypeCode>03</cbc:DocumentTypeCode>
+		<cbc:ID>B001-3</cbc:ID>
+		<cac:AccountingCustomerParty>
+			<cbc:CustomerAssignedAccountID>74641991</cbc:CustomerAssignedAccountID>
+			<cbc:AdditionalAccountID>1</cbc:AdditionalAccountID>
+		</cac:AccountingCustomerParty>
+		<cac:Status>
+			<cbc:ConditionCode>3</cbc:ConditionCode>
+		</cac:Status>
+		<sac:TotalAmount currencyID="PEN">2025.00</sac:TotalAmount>
+		<sac:BillingPayment>
+			<cbc:PaidAmount currencyID="PEN">1716.30</cbc:PaidAmount>
+			<cbc:InstructionID>01</cbc:InstructionID>
+		</sac:BillingPayment>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="PEN">308.70</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxAmount currencyID="PEN">308.70</cbc:TaxAmount>
+				<cac:TaxCategory>
+					<cac:TaxScheme>
+						<cbc:ID>1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+	</sac:SummaryDocumentsLine>
+	<sac:SummaryDocumentsLine>
+		<cbc:LineID>4</cbc:LineID>
+		<cbc:DocumentTypeCode>07</cbc:DocumentTypeCode>
+		<cbc:ID>BC01-1</cbc:ID>
+		<cac:AccountingCustomerParty>
+			<cbc:CustomerAssignedAccountID>09329652</cbc:CustomerAssignedAccountID>
+			<cbc:AdditionalAccountID>1</cbc:AdditionalAccountID>
+		</cac:AccountingCustomerParty>
+		<cac:BillingReference>
+			<cac:InvoiceDocumentReference>
+				<cbc:ID>B001-00000033</cbc:ID>
+				<cbc:DocumentTypeCode>03</cbc:DocumentTypeCode>
+			</cac:InvoiceDocumentReference>
+		</cac:BillingReference>
+		<cac:BillingReference>
+			<cac:InvoiceDocumentReference>
+				<cbc:ID>B001-00000034</cbc:ID>
+				<cbc:DocumentTypeCode>03</cbc:DocumentTypeCode>
+			</cac:InvoiceDocumentReference>
+		</cac:BillingReference>
+		<cac:Status>
+			<cbc:ConditionCode>1</cbc:ConditionCode>
+		</cac:Status>
+		<sac:TotalAmount currencyID="PEN">701048.88</sac:TotalAmount>
+		<sac:BillingPayment>
+			<cbc:PaidAmount currencyID="PEN">594109.22</cbc:PaidAmount>
+			<cbc:InstructionID>01</cbc:InstructionID>
+		</sac:BillingPayment>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="PEN">106939.66</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxAmount currencyID="PEN">106939.66</cbc:TaxAmount>
+				<cac:TaxCategory>
+					<cac:TaxScheme>
+						<cbc:ID>1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+	</sac:SummaryDocumentsLine>
+</SummaryDocuments>

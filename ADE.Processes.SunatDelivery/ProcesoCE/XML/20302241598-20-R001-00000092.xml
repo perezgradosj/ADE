@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Retention xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns="urn:sunat:names:specification:ubl:peru:schema:xsd:Retention-1">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent><AdditionalInformationSLIN><Document><ID>20302241598-20-R001-00000092</ID></Document><Extra><ExLinea>1</ExLinea><ExDato><![CDATA[DOS MIL QUINIENTOS CINCUENTA Y CUATRO y 85/100 SOLES]]></ExDato><ExTipo>-</ExTipo></Extra><Extra><ExLinea>2</ExLinea><ExDato><![CDATA[CENTRAL:615-8400]]></ExDato><ExTipo>-</ExTipo></Extra></AdditionalInformationSLIN></ext:ExtensionContent>
+		</ext:UBLExtension>
+		<ext:UBLExtension>
+			<ext:ExtensionContent><ds:Signature Id="SignatureSP"><SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>OaaSl+ASysmpjNGDRFDTzvtfRzk=</DigestValue></Reference></SignedInfo><SignatureValue xmlns="http://www.w3.org/2000/09/xmldsig#">UMS1muj6Pf+TXlWz3eojmMBHLTV0wIsrEo0I6C/XUjwAZwUuorArRoPOoWdskeiCxqt/HDKsCMT821WhCI3iEbFOZCRrPJB4pp6NWOZXOYMdqzOAoor0FNOLAw9iZ+hpYrfTfUdttB/IVMtkS2ErlDcf5I1z8cOINI7jdQaFyy8tIukyYTzKxGrbOw3cnewXmKVuZP4FWnCiSO9tf6yHun4IesxTl7wN9jXFl98qugG0bJ8V1aMLv6XFO5DVzKSE9q1C5sKLBIJNCyKAOZ8gPIKT53c7b74ItFKDWSucmQydI0qe5C9ApM19pYEslMc6lOyDEiF+baLLe+L+X7g7GA==</SignatureValue><KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><X509Data><X509SubjectName>CN=Dennie Zapata Tomasto + E=dezapata@slin.com.pe, OU=RUC: 20508622326, O=Corporacion Slin S.A.C, L=Lima, C=PE</X509SubjectName><X509Certificate>MIIFUzCCBDugAwIBAgIQYZ2F/j6ZSUsAAAAATDW08DANBgkqhkiG9w0BAQsFADCBpTELMAkGA1UEBhMCVVMxFjAUBgNVBAoTDUVudHJ1c3QsIEluYy4xOTA3BgNVBAsTMHd3dy5lbnRydXN0Lm5ldC9DUFMgaXMgaW5jb3Jwb3JhdGVkIGJ5IHJlZmVyZW5jZTEfMB0GA1UECxMWKGMpIDIwMTAgRW50cnVzdCwgSW5jLjEiMCAGA1UEAxMZRW50cnVzdCBDbGFzcyAyIENsaWVudCBDQTAeFw0xNzA1MDMxODQyMTRaFw0xODA1MDMxOTEyMTJaMIGbMQswCQYDVQQGEwJQRTENMAsGA1UEBxMETGltYTEfMB0GA1UEChMWQ29ycG9yYWNpb24gU2xpbiBTLkEuQzEZMBcGA1UECxMQUlVDOiAyMDUwODYyMjMyNjFBMBwGA1UEAxMVRGVubmllIFphcGF0YSBUb21hc3RvMCEGCSqGSIb3DQEJARYUZGV6YXBhdGFAc2xpbi5jb20ucGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCir0HEIBfkBlVqg3/dPOk9U5g49OK7d7Xf9lDWPjAJlOjsBzARoh+4W20BmWVwQGKvrSgnxLo0DYfoVyoLG5dazktoyW8dS+KYhrjYYAZzYIXpDWpyx51mOsyWT8hxYWCESfFap+NVeeqR/cUHCsNsx29fd2xQXynMqR1HN5Wrh57i04ICrG2ru8Uk+qCZ+s07BEkxxuJWi4DPm4xAlYW9sPHOA50qIg548VLYvh7CW195zCNqfE+bKYSOteXJ4jvc7i4OESz2nzZxpZ5nFk6uLGZGKZSv6fGH/XcC7cedP8zJENrAa+dQ4+arAfRnHTgrLnbelPU8NbVFNyxHJmQpAgMBAAGjggGFMIIBgTAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMEIGA1UdIAQ7MDkwNwYLYIZIAYb6bAoBBAIwKDAmBggrBgEFBQcCARYaaHR0cDovL3d3dy5lbnRydXN0Lm5ldC9ycGEwagYIKwYBBQUHAQEEXjBcMCMGCCsGAQUFBzABhhdodHRwOi8vb2NzcC5lbnRydXN0Lm5ldDA1BggrBgEFBQcwAoYpaHR0cDovL2FpYS5lbnRydXN0Lm5ldC8yMDQ4Y2xhc3Myc2hhMi5jZXIwNAYDVR0fBC0wKzApoCegJYYjaHR0cDovL2NybC5lbnRydXN0Lm5ldC9jbGFzczJjYS5jcmwwHwYDVR0RBBgwFoEUZGV6YXBhdGFAc2xpbi5jb20ucGUwHwYDVR0jBBgwFoAUCZGluunyLip1381+/nfK8t5rmyQwHQYDVR0OBBYEFEFsRfmeZcBvqh23c4Hcapq970J1MAkGA1UdEwQCMAAwDQYJKoZIhvcNAQELBQADggEBAJ5GHLQAi4t80cADPx1Hp0gPs336o3rv9Rbcf58t8qc+4AiYRKiodGRHUTZbgVI7MahSHl8NUSHrePi4ZG/BWOumlaXaK/8cmNA+2fNxGwuJZFNLSoGe12DOc3AdbdO9yRgW8d+G41xSZQDd0go0M64VKzxwu3vMA/klBXmsna6JzSO1/QQRG+sEwkov6lumBM0nOuuTfAYoGa5jwAzVoiG4Ql00NwvOMp/vEQqeZsQVz7dOyHAG42HeJWLgPGXXBNebvn5sRRR/ahsZXJ3hLovgDr/00XPns4ZGy9ftgoY4qNSaik5WGFkvB8/Ofln/Jj/QOZsVtAf05BVjQhZev9Y=</X509Certificate></X509Data></KeyInfo></ds:Signature></ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+	<cbc:CustomizationID>1.0</cbc:CustomizationID>
+	<cac:Signature>
+		<cbc:ID>IDSign20302241598</cbc:ID>
+		<cac:SignatoryParty>
+			<cac:PartyIdentification>
+				<cbc:ID>20302241598</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name><![CDATA[KOMATSU-MITSUI MAQUINARIAS PERU SA]]></cbc:Name>
+			</cac:PartyName>
+		</cac:SignatoryParty>
+		<cac:DigitalSignatureAttachment>
+			<cac:ExternalReference>
+				<cbc:URI>#signature20302241598</cbc:URI>
+			</cac:ExternalReference>
+		</cac:DigitalSignatureAttachment>
+	</cac:Signature>
+	<cbc:ID>R001-00000092</cbc:ID>
+	<cbc:IssueDate>2018-05-09</cbc:IssueDate>
+	<cac:AgentParty>
+		<cac:PartyIdentification>
+			<cbc:ID schemeID="6">20302241598</cbc:ID>
+		</cac:PartyIdentification>
+		<cac:PartyName>
+			<cbc:Name><![CDATA[KOMATSU-MITSUI MAQUINARIAS PERU SA]]></cbc:Name>
+		</cac:PartyName>
+		<cac:PostalAddress>
+			<cbc:ID>070101</cbc:ID>
+			<cbc:StreetName>AV. ARGENTINA NRO. 4453 (CRUCE CON AV. FAUCETT)</cbc:StreetName>
+			<cbc:CitySubdivisionName>-</cbc:CitySubdivisionName>
+			<cbc:CityName>PROV. CONST. DEL CALLAO</cbc:CityName>
+			<cbc:CountrySubentity>PROV.CONST.DEL CALLAO</cbc:CountrySubentity>
+			<cbc:District>CALLAO</cbc:District>
+			<cac:Country>
+				<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+			</cac:Country>
+		</cac:PostalAddress>
+		<cac:PartyLegalEntity>
+			<cbc:RegistrationName><![CDATA[KOMATSU-MITSUI MAQUINARIAS PERU SA]]></cbc:RegistrationName>
+		</cac:PartyLegalEntity>
+	</cac:AgentParty>
+	<cac:ReceiverParty>
+		<cac:PartyIdentification>
+			<cbc:ID schemeID="6">20518334906</cbc:ID>
+		</cac:PartyIdentification>
+		<cac:PartyName>
+			<cbc:Name><![CDATA[C.H. ROBINSON WORLDWIDE PERU, C.H. ROBINSON WORLDWIDE PERU,]]></cbc:Name>
+		</cac:PartyName>
+		<cac:PostalAddress>
+			<cbc:ID>070101</cbc:ID>
+			<cbc:StreetName>AV. FAUCETT NRO. 2879 INT. 224</cbc:StreetName>
+			<cbc:CitySubdivisionName>-</cbc:CitySubdivisionName>
+			<cbc:CityName>CALLAO</cbc:CityName>
+			<cbc:CountrySubentity>CALLAO</cbc:CountrySubentity>
+			<cbc:District>CALLAO</cbc:District>
+			<cac:Country>
+				<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+			</cac:Country>
+		</cac:PostalAddress>
+		<cac:PartyLegalEntity>
+			<cbc:RegistrationName><![CDATA[C.H. ROBINSON WORLDWIDE PERU, C.H. ROBINSON WORLDWIDE PERU,]]></cbc:RegistrationName>
+		</cac:PartyLegalEntity>
+	</cac:ReceiverParty>
+	<sac:SUNATRetentionSystemCode>01</sac:SUNATRetentionSystemCode>
+	<sac:SUNATRetentionPercent>3</sac:SUNATRetentionPercent>
+	<cbc:Note><![CDATA[3100000087]]></cbc:Note>
+	<cbc:TotalInvoiceAmount currencyID="PEN">2554.85</cbc:TotalInvoiceAmount>
+	<sac:SUNATTotalPaid currencyID="PEN">82607.46</sac:SUNATTotalPaid>
+	<sac:SUNATRetentionDocumentReference>
+		<cbc:ID schemeID="01">0001-00023520</cbc:ID>
+		<cbc:IssueDate>2018-01-29</cbc:IssueDate>
+		<cbc:TotalInvoiceAmount currencyID="USD">158.00</cbc:TotalInvoiceAmount>
+		<cac:Payment>
+			<cbc:ID>1</cbc:ID>
+			<cbc:PaidAmount currencyID="USD">158.00</cbc:PaidAmount>
+			<cbc:PaidDate>2018-05-09</cbc:PaidDate>
+		</cac:Payment>
+		<sac:SUNATRetentionInformation>
+			<sac:SUNATRetentionAmount currencyID="PEN">15.50</sac:SUNATRetentionAmount>
+			<sac:SUNATRetentionDate>2018-05-09</sac:SUNATRetentionDate>
+			<sac:SUNATNetTotalPaid currencyID="PEN">501.16</sac:SUNATNetTotalPaid>
+			<cac:ExchangeRate>
+				<cbc:SourceCurrencyCode>USD</cbc:SourceCurrencyCode>
+				<cbc:TargetCurrencyCode>PEN</cbc:TargetCurrencyCode>
+				<cbc:CalculationRate>3.27000</cbc:CalculationRate>
+				<cbc:Date>2018-05-09</cbc:Date>
+			</cac:ExchangeRate>
+		</sac:SUNATRetentionInformation>
+	</sac:SUNATRetentionDocumentReference>
+	<sac:SUNATRetentionDocumentReference>
+		<cbc:ID schemeID="01">0001-00023520</cbc:ID>
+		<cbc:IssueDate>2018-01-29</cbc:IssueDate>
+		<cbc:TotalInvoiceAmount currencyID="USD">15.00</cbc:TotalInvoiceAmount>
+		<cac:Payment>
+			<cbc:ID>1</cbc:ID>
+			<cbc:PaidAmount currencyID="USD">15.00</cbc:PaidAmount>
+			<cbc:PaidDate>2018-05-09</cbc:PaidDate>
+		</cac:Payment>
+		<sac:SUNATRetentionInformation>
+			<sac:SUNATRetentionAmount currencyID="PEN">1.47</sac:SUNATRetentionAmount>
+			<sac:SUNATRetentionDate>2018-05-09</sac:SUNATRetentionDate>
+			<sac:SUNATNetTotalPaid currencyID="PEN">47.58</sac:SUNATNetTotalPaid>
+			<cac:ExchangeRate>
+				<cbc:SourceCurrencyCode>USD</cbc:SourceCurrencyCode>
+				<cbc:TargetCurrencyCode>PEN</cbc:TargetCurrencyCode>
+				<cbc:CalculationRate>3.27000</cbc:CalculationRate>
+				<cbc:Date>2018-05-09</cbc:Date>
+			</cac:ExchangeRate>
+		</sac:SUNATRetentionInformation>
+	</sac:SUNATRetentionDocumentReference>
+	<sac:SUNATRetentionDocumentReference>
+		<cbc:ID schemeID="01">0001-00023563</cbc:ID>
+		<cbc:IssueDate>2018-01-24</cbc:IssueDate>
+		<cbc:TotalInvoiceAmount currencyID="USD">236.00</cbc:TotalInvoiceAmount>
+		<cac:Payment>
+			<cbc:ID>1</cbc:ID>
+			<cbc:PaidAmount currencyID="USD">236.00</cbc:PaidAmount>
+			<cbc:PaidDate>2018-05-09</cbc:PaidDate>
+		</cac:Payment>
+		<sac:SUNATRetentionInformation>
+			<sac:SUNATRetentionAmount currencyID="PEN">23.15</sac:SUNATRetentionAmount>
+			<sac:SUNATRetentionDate>2018-05-09</sac:SUNATRetentionDate>
+			<sac:SUNATNetTotalPaid currencyID="PEN">748.57</sac:SUNATNetTotalPaid>
+			<cac:ExchangeRate>
+				<cbc:SourceCurrencyCode>USD</cbc:SourceCurrencyCode>
+				<cbc:TargetCurrencyCode>PEN</cbc:TargetCurrencyCode>
+				<cbc:CalculationRate>3.27000</cbc:CalculationRate>
+				<cbc:Date>2018-05-09</cbc:Date>
+			</cac:ExchangeRate>
+		</sac:SUNATRetentionInformation>
+	</sac:SUNATRetentionDocumentReference>
+	<sac:SUNATRetentionDocumentReference>
+		<cbc:ID schemeID="01">0001-00023563</cbc:ID>
+		<cbc:IssueDate>2018-01-24</cbc:IssueDate>
+		<cbc:TotalInvoiceAmount currencyID="USD">45.00</cbc:TotalInvoiceAmount>
+		<cac:Payment>
+			<cbc:ID>1</cbc:ID>
+			<cbc:PaidAmount currencyID="USD">45.00</cbc:PaidAmount>
+			<cbc:PaidDate>2018-05-09</cbc:PaidDate>
+		</cac:Payment>
+		<sac:SUNATRetentionInformation>
+			<sac:SUNATRetentionAmount currencyID="PEN">4.41</sac:SUNATRetentionAmount>
+			<sac:SUNATRetentionDate>2018-05-09</sac:SUNATRetentionDate>
+			<sac:SUNATNetTotalPaid currencyID="PEN">142.74</sac:SUNATNetTotalPaid>
+			<cac:ExchangeRate>
+				<cbc:SourceCurrencyCode>USD</cbc:SourceCurrencyCode>
+				<cbc:TargetCurrencyCode>PEN</cbc:TargetCurrencyCode>
+				<cbc:CalculationRate>3.27000</cbc:CalculationRate>
+				<cbc:Date>2018-05-09</cbc:Date>
+			</cac:ExchangeRate>
+		</sac:SUNATRetentionInformation>
+	</sac:SUNATRetentionDocumentReference>
+	<sac:SUNATRetentionDocumentReference>
+		<cbc:ID schemeID="01">0001-00023563</cbc:ID>
+		<cbc:IssueDate>2018-01-24</cbc:IssueDate>
+		<cbc:TotalInvoiceAmount currencyID="USD">105.00</cbc:TotalInvoiceAmount>
+		<cac:Payment>
+			<cbc:ID>1</cbc:ID>
+			<cbc:PaidAmount currencyID="USD">105.00</cbc:PaidAmount>
+			<cbc:PaidDate>2018-05-09</cbc:PaidDate>
+		</cac:Payment>
+		<sac:SUNATRetentionInformation>
+			<sac:SUNATRetentionAmount currencyID="PEN">10.30</sac:SUNATRetentionAmount>
+			<sac:SUNATRetentionDate>2018-05-09</sac:SUNATRetentionDate>
+			<sac:SUNATNetTotalPaid currencyID="PEN">333.05</sac:SUNATNetTotalPaid>
+			<cac:ExchangeRate>
+				<cbc:SourceCurrencyCode>USD</cbc:SourceCurrencyCode>
+				<cbc:TargetCurrencyCode>PEN</cbc:TargetCurrencyCode>
+				<cbc:CalculationRate>3.27000</cbc:CalculationRate>
+				<cbc:Date>2018-05-09</cbc:Date>
+			</cac:ExchangeRate>
+		</sac:SUNATRetentionInformation>
+	</sac:SUNATRetentionDocumentReference>
+	<sac:SUNATRetentionDocumentReference>
+		<cbc:ID schemeID="01">F004-00012999</cbc:ID>
+		<cbc:IssueDate>2018-01-31</cbc:IssueDate>
+		<cbc:TotalInvoiceAmount currencyID="USD">203.91</cbc:TotalInvoiceAmount>
+		<cac:Payment>
+			<cbc:ID>1</cbc:ID>
+			<cbc:PaidAmount currencyID="USD">203.91</cbc:PaidAmount>
+			<cbc:PaidDate>2018-05-09</cbc:PaidDate>
+		</cac:Payment>
+		<sac:SUNATRetentionInformation>
+			<sac:SUNATRetentionAmount currencyID="PEN">20.00</sac:SUNATRetentionAmount>
+			<sac:SUNATRetentionDate>2018-05-09</sac:SUNATRetentionDate>
+			<sac:SUNATNetTotalPaid currencyID="PEN">646.79</sac:SUNATNetTotalPaid>
+			<cac:ExchangeRate>
+				<cbc:SourceCurrencyCode>USD</cbc:SourceCurrencyCode>
+				<cbc:TargetCurrencyCode>PEN</cbc:TargetCurrencyCode>
+				<cbc:CalculationRate>3.27000</cbc:CalculationRate>
+				<cbc:Date>2018-05-09</cbc:Date>
+			</cac:ExchangeRate>
+		</sac:SUNATRetentionInformation>
+	</sac:SUNATRetentionDocumentReference>
+	<sac:SUNATRetentionDocumentReference>
+		<cbc:ID schemeID="01">F004-00012999</cbc:ID>
+		<cbc:IssueDate>2018-01-31</cbc:IssueDate>
+		<cbc:TotalInvoiceAmount currencyID="USD">203.91</cbc:TotalInvoiceAmount>
+		<cac:Payment>
+			<cbc:ID>1</cbc:ID>
+			<cbc:PaidAmount currencyID="USD">203.91</cbc:PaidAmount>
+			<cbc:PaidDate>2018-05-09</cbc:PaidDate>
+		</cac:Payment>
+		<sac:SUNATRetentionInformation>
+			<sac:SUNATRetentionAmount currencyID="PEN">20.00</sac:SUNATRetentionAmount>
+			<sac:SUNATRetentionDate>2018-05-09</sac:SUNATRetentionDate>
+			<sac:SUNATNetTotalPaid currencyID="PEN">646.79</sac:SUNATNetTotalPaid>
+			<cac:ExchangeRate>
+				<cbc:SourceCurrencyCode>USD</cbc:SourceCurrencyCode>
+				<cbc:TargetCurrencyCode>PEN</cbc:TargetCurrencyCode>
+				<cbc:CalculationRate>3.27000</cbc:CalculationRate>
+				<cbc:Date>2018-05-09</cbc:Date>
+			</cac:ExchangeRate>
+		</sac:SUNATRetentionInformation>
+	</sac:SUNATRetentionDocumentReference>
+	<sac:SUNATRetentionDocumentReference>
+		<cbc:ID schemeID="01">F004-00012999</cbc:ID>
+		<cbc:IssueDate>2018-01-31</cbc:IssueDate>
+		<cbc:TotalInvoiceAmount currencyID="USD">11.56</cbc:TotalInvoiceAmount>
+		<cac:Payment>
+			<cbc:ID>1</cbc:ID>
+			<cbc:PaidAmount currencyID="USD">11.56</cbc:PaidAmount>
+			<cbc:PaidDate>2018-05-09</cbc:PaidDate>
+		</cac:Payment>
+		<sac:SUNATRetentionInformation>
+			<sac:SUNATRetentionAmount currencyID="PEN">1.13</sac:SUNATRetentionAmount>
+			<sac:SUNATRetentionDate>2018-05-09</sac:SUNATRetentionDate>
+			<sac:SUNATNetTotalPaid currencyID="PEN">36.67</sac:SUNATNetTotalPaid>
+			<cac:ExchangeRate>
+				<cbc:SourceCurrencyCode>USD</cbc:SourceCurrencyCode>
+				<cbc:TargetCurrencyCode>PEN</cbc:TargetCurrencyCode>
+				<cbc:CalculationRate>3.27000</cbc:CalculationRate>
+				<cbc:Date>2018-05-09</cbc:Date>
+			</cac:ExchangeRate>
+		</sac:SUNATRetentionInformation>
+	</sac:SUNATRetentionDocumentReference>
+	<sac:SUNATRetentionDocumentReference>
+		<cbc:ID schemeID="01">F004-00018888</cbc:ID>
+		<cbc:IssueDate>2018-01-31</cbc:IssueDate>
+		<cbc:TotalInvoiceAmount currencyID="USD">12542.00</cbc:TotalInvoiceAmount>
+		<cac:Payment>
+			<cbc:ID>1</cbc:ID>
+			<cbc:PaidAmount currencyID="USD">12542.00</cbc:PaidAmount>
+			<cbc:PaidDate>2018-05-09</cbc:PaidDate>
+		</cac:Payment>
+		<sac:SUNATRetentionInformation>
+			<sac:SUNATRetentionAmount currencyID="PEN">1230.37</sac:SUNATRetentionAmount>
+			<sac:SUNATRetentionDate>2018-05-09</sac:SUNATRetentionDate>
+			<sac:SUNATNetTotalPaid currencyID="PEN">39781.97</sac:SUNATNetTotalPaid>
+			<cac:ExchangeRate>
+				<cbc:SourceCurrencyCode>USD</cbc:SourceCurrencyCode>
+				<cbc:TargetCurrencyCode>PEN</cbc:TargetCurrencyCode>
+				<cbc:CalculationRate>3.27000</cbc:CalculationRate>
+				<cbc:Date>2018-05-09</cbc:Date>
+			</cac:ExchangeRate>
+		</sac:SUNATRetentionInformation>
+	</sac:SUNATRetentionDocumentReference>
+	<sac:SUNATRetentionDocumentReference>
+		<cbc:ID schemeID="01">F004-00018888</cbc:ID>
+		<cbc:IssueDate>2018-01-31</cbc:IssueDate>
+		<cbc:TotalInvoiceAmount currencyID="USD">11.56</cbc:TotalInvoiceAmount>
+		<cac:Payment>
+			<cbc:ID>1</cbc:ID>
+			<cbc:PaidAmount currencyID="USD">11.56</cbc:PaidAmount>
+			<cbc:PaidDate>2018-05-09</cbc:PaidDate>
+		</cac:Payment>
+		<sac:SUNATRetentionInformation>
+			<sac:SUNATRetentionAmount currencyID="PEN">1.13</sac:SUNATRetentionAmount>
+			<sac:SUNATRetentionDate>2018-05-09</sac:SUNATRetentionDate>
+			<sac:SUNATNetTotalPaid currencyID="PEN">36.67</sac:SUNATNetTotalPaid>
+			<cac:ExchangeRate>
+				<cbc:SourceCurrencyCode>USD</cbc:SourceCurrencyCode>
+				<cbc:TargetCurrencyCode>PEN</cbc:TargetCurrencyCode>
+				<cbc:CalculationRate>3.27000</cbc:CalculationRate>
+				<cbc:Date>2018-05-09</cbc:Date>
+			</cac:ExchangeRate>
+		</sac:SUNATRetentionInformation>
+	</sac:SUNATRetentionDocumentReference>
+	<sac:SUNATRetentionDocumentReference>
+		<cbc:ID schemeID="01">F004-00017777</cbc:ID>
+		<cbc:IssueDate>2018-01-31</cbc:IssueDate>
+		<cbc:TotalInvoiceAmount currencyID="USD">12542.00</cbc:TotalInvoiceAmount>
+		<cac:Payment>
+			<cbc:ID>1</cbc:ID>
+			<cbc:PaidAmount currencyID="USD">12542.00</cbc:PaidAmount>
+			<cbc:PaidDate>2018-05-09</cbc:PaidDate>
+		</cac:Payment>
+		<sac:SUNATRetentionInformation>
+			<sac:SUNATRetentionAmount currencyID="PEN">1230.37</sac:SUNATRetentionAmount>
+			<sac:SUNATRetentionDate>2018-05-09</sac:SUNATRetentionDate>
+			<sac:SUNATNetTotalPaid currencyID="PEN">39781.97</sac:SUNATNetTotalPaid>
+			<cac:ExchangeRate>
+				<cbc:SourceCurrencyCode>USD</cbc:SourceCurrencyCode>
+				<cbc:TargetCurrencyCode>PEN</cbc:TargetCurrencyCode>
+				<cbc:CalculationRate>3.27000</cbc:CalculationRate>
+				<cbc:Date>2018-05-09</cbc:Date>
+			</cac:ExchangeRate>
+		</sac:SUNATRetentionInformation>
+	</sac:SUNATRetentionDocumentReference>
+	<sac:SUNATRetentionDocumentReference>
+		<cbc:ID schemeID="01">F004-00017777</cbc:ID>
+		<cbc:IssueDate>2018-01-31</cbc:IssueDate>
+		<cbc:TotalInvoiceAmount currencyID="USD">217.20</cbc:TotalInvoiceAmount>
+		<cac:Payment>
+			<cbc:ID>1</cbc:ID>
+			<cbc:PaidAmount currencyID="USD">217.20</cbc:PaidAmount>
+			<cbc:PaidDate>2018-05-09</cbc:PaidDate>
+		</cac:Payment>
+		<sac:SUNATRetentionInformation>
+			<sac:SUNATRetentionAmount currencyID="PEN">21.31</sac:SUNATRetentionAmount>
+			<sac:SUNATRetentionDate>2018-05-09</sac:SUNATRetentionDate>
+			<sac:SUNATNetTotalPaid currencyID="PEN">688.93</sac:SUNATNetTotalPaid>
+			<cac:ExchangeRate>
+				<cbc:SourceCurrencyCode>USD</cbc:SourceCurrencyCode>
+				<cbc:TargetCurrencyCode>PEN</cbc:TargetCurrencyCode>
+				<cbc:CalculationRate>3.27000</cbc:CalculationRate>
+				<cbc:Date>2018-05-09</cbc:Date>
+			</cac:ExchangeRate>
+		</sac:SUNATRetentionInformation>
+	</sac:SUNATRetentionDocumentReference>
+	<sac:SUNATRetentionDocumentReference>
+		<cbc:ID schemeID="07">0001-00000682</cbc:ID>
+		<cbc:IssueDate>2018-01-24</cbc:IssueDate>
+		<cbc:TotalInvoiceAmount currencyID="USD">118.00</cbc:TotalInvoiceAmount>
+		<cac:Payment>
+			<cbc:ID>1</cbc:ID>
+			<cbc:PaidAmount currencyID="USD">118.00</cbc:PaidAmount>
+			<cbc:PaidDate>2018-05-09</cbc:PaidDate>
+		</cac:Payment>
+		<sac:SUNATRetentionInformation>
+			<sac:SUNATRetentionAmount currencyID="PEN">11.58</sac:SUNATRetentionAmount>
+			<sac:SUNATRetentionDate>2018-05-09</sac:SUNATRetentionDate>
+			<sac:SUNATNetTotalPaid currencyID="PEN">374.28</sac:SUNATNetTotalPaid>
+			<cac:ExchangeRate>
+				<cbc:SourceCurrencyCode>USD</cbc:SourceCurrencyCode>
+				<cbc:TargetCurrencyCode>PEN</cbc:TargetCurrencyCode>
+				<cbc:CalculationRate>3.27000</cbc:CalculationRate>
+				<cbc:Date>2018-05-09</cbc:Date>
+			</cac:ExchangeRate>
+		</sac:SUNATRetentionInformation>
+	</sac:SUNATRetentionDocumentReference>
+	<sac:SUNATRetentionDocumentReference>
+		<cbc:ID schemeID="07">F004-00017485</cbc:ID>
+		<cbc:IssueDate>2018-01-31</cbc:IssueDate>
+		<cbc:TotalInvoiceAmount currencyID="USD">11.56</cbc:TotalInvoiceAmount>
+		<cac:Payment>
+			<cbc:ID>1</cbc:ID>
+			<cbc:PaidAmount currencyID="USD">11.56</cbc:PaidAmount>
+			<cbc:PaidDate>2018-05-09</cbc:PaidDate>
+		</cac:Payment>
+		<sac:SUNATRetentionInformation>
+			<sac:SUNATRetentionAmount currencyID="PEN">1.13</sac:SUNATRetentionAmount>
+			<sac:SUNATRetentionDate>2018-05-09</sac:SUNATRetentionDate>
+			<sac:SUNATNetTotalPaid currencyID="PEN">36.67</sac:SUNATNetTotalPaid>
+			<cac:ExchangeRate>
+				<cbc:SourceCurrencyCode>USD</cbc:SourceCurrencyCode>
+				<cbc:TargetCurrencyCode>PEN</cbc:TargetCurrencyCode>
+				<cbc:CalculationRate>3.27000</cbc:CalculationRate>
+				<cbc:Date>2018-05-09</cbc:Date>
+			</cac:ExchangeRate>
+		</sac:SUNATRetentionInformation>
+	</sac:SUNATRetentionDocumentReference>
+	<sac:SUNATRetentionDocumentReference>
+		<cbc:ID schemeID="08">0001-00000681</cbc:ID>
+		<cbc:IssueDate>2018-01-24</cbc:IssueDate>
+		<cbc:TotalInvoiceAmount currencyID="USD">118.06</cbc:TotalInvoiceAmount>
+		<cac:Payment>
+			<cbc:ID>1</cbc:ID>
+			<cbc:PaidAmount currencyID="USD">118.06</cbc:PaidAmount>
+			<cbc:PaidDate>2018-05-09</cbc:PaidDate>
+		</cac:Payment>
+		<sac:SUNATRetentionInformation>
+			<sac:SUNATRetentionAmount currencyID="PEN">11.58</sac:SUNATRetentionAmount>
+			<sac:SUNATRetentionDate>2018-05-09</sac:SUNATRetentionDate>
+			<sac:SUNATNetTotalPaid currencyID="PEN">374.48</sac:SUNATNetTotalPaid>
+			<cac:ExchangeRate>
+				<cbc:SourceCurrencyCode>USD</cbc:SourceCurrencyCode>
+				<cbc:TargetCurrencyCode>PEN</cbc:TargetCurrencyCode>
+				<cbc:CalculationRate>3.27000</cbc:CalculationRate>
+				<cbc:Date>2018-05-09</cbc:Date>
+			</cac:ExchangeRate>
+		</sac:SUNATRetentionInformation>
+	</sac:SUNATRetentionDocumentReference>
+</Retention>

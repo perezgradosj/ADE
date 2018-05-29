@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Invoice xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent><AdditionalInformationSLIN><Document><ID>20302241598-01-F001-00000001</ID></Document><Extra><ExLinea>1</ExLinea><ExDato><![CDATA[]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>2</ExLinea><ExDato><![CDATA[Telef: 264-0105]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>3</ExLinea><ExDato><![CDATA[www.unionpakperu.com]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>4</ExLinea><ExDato><![CDATA[955604225]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>5</ExLinea><ExDato><![CDATA[PEDIDO]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>6</ExLinea><ExDato><![CDATA[CONTRA ENTREGA]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>7</ExLinea><ExDato><![CDATA[08/03/2018]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>8</ExLinea><ExDato><![CDATA[JONATHAN]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>9</ExLinea><ExDato><![CDATA[ABSDVASDA]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>10</ExLinea><ExDato><![CDATA[08/03/2018]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>11</ExLinea><ExDato><![CDATA[1]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>12</ExLinea><ExDato><![CDATA[5.50]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>13</ExLinea><ExDato><![CDATA[801757]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>14</ExLinea><ExDato><![CDATA[116052]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>15</ExLinea><ExDato><![CDATA[349.14]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>16</ExLinea><ExDato><![CDATA[CAL. LOS TELARES NRO. 139 URB. VULCANO]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>17</ExLinea><ExDato><![CDATA[150103]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>18</ExLinea><ExDato><![CDATA[]]></ExDato><ExTipo></ExTipo></Extra><Extra><ExLinea>19</ExLinea><ExDato><![CDATA[08/03/2018]]></ExDato><ExTipo></ExTipo></Extra></AdditionalInformationSLIN></ext:ExtensionContent>
+		</ext:UBLExtension>
+		<ext:UBLExtension>
+			<ext:ExtensionContent><sac:AdditionalInformation><sac:AdditionalMonetaryTotal><cbc:ID>1001</cbc:ID><cbc:PayableAmount currencyID="USD">20.00</cbc:PayableAmount></sac:AdditionalMonetaryTotal><sac:AdditionalMonetaryTotal><cbc:ID>1002</cbc:ID><cbc:PayableAmount currencyID="USD">0.00</cbc:PayableAmount></sac:AdditionalMonetaryTotal><sac:AdditionalMonetaryTotal><cbc:ID>1003</cbc:ID><cbc:PayableAmount currencyID="USD">0.00</cbc:PayableAmount></sac:AdditionalMonetaryTotal><sac:AdditionalMonetaryTotal><cbc:ID>2005</cbc:ID><cbc:PayableAmount currencyID="USD">1.00</cbc:PayableAmount></sac:AdditionalMonetaryTotal><sac:AdditionalProperty><cbc:ID>1000</cbc:ID><cbc:Value>VEINTIDOS Y 42/100 DOLARES AMERICANOS</cbc:Value></sac:AdditionalProperty><sac:SUNATTransaction><cbc:ID>01</cbc:ID></sac:SUNATTransaction></sac:AdditionalInformation></ext:ExtensionContent>
+		</ext:UBLExtension>
+		<ext:UBLExtension>
+			<ext:ExtensionContent><ds:Signature Id="SignatureSP"><SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>0TSw86L49cmsZU/3oZPiZZ6ehe0=</DigestValue></Reference></SignedInfo><SignatureValue xmlns="http://www.w3.org/2000/09/xmldsig#">W77xtPQViA8e9RJQb/iy4pa+fqv/D2nZbYAUAgfqkpYF+8Ex6Mn91uQ5aXoLpkCakkd08Ec46omelBrH2lOoONj3Z34FulSkyyvGKxuF4KqzH9Gruyxz/sn8DmZbjke9elmjNHVCyOB03KcVKqY2mY7LpzjPJ1/sKr7n+Sn1YfVwUsr5IrasbOc9qMLvgqNDoV6RRi00u1e5I7Sthgt3T+MmuzGlWLZRy6SdiFeXX1k0X7USn+DrV8w+n2uH0C3VBGfsnSVU8Db+KsRwaLeLyfPVULsrOSBh2CIXIvlXKoCg03y+VAEjdbVoaEwpcr3Z1jXh15XKmF8mcFoRup3aeg==</SignatureValue><KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><X509Data><X509SubjectName>CN=Dennie Zapata Tomasto + E=dezapata@slin.com.pe, OU=RUC: 20508622326, O=Corporacion Slin S.A.C, L=Lima, C=PE</X509SubjectName><X509Certificate>MIIFUzCCBDugAwIBAgIQYZ2F/j6ZSUsAAAAATDW08DANBgkqhkiG9w0BAQsFADCBpTELMAkGA1UEBhMCVVMxFjAUBgNVBAoTDUVudHJ1c3QsIEluYy4xOTA3BgNVBAsTMHd3dy5lbnRydXN0Lm5ldC9DUFMgaXMgaW5jb3Jwb3JhdGVkIGJ5IHJlZmVyZW5jZTEfMB0GA1UECxMWKGMpIDIwMTAgRW50cnVzdCwgSW5jLjEiMCAGA1UEAxMZRW50cnVzdCBDbGFzcyAyIENsaWVudCBDQTAeFw0xNzA1MDMxODQyMTRaFw0xODA1MDMxOTEyMTJaMIGbMQswCQYDVQQGEwJQRTENMAsGA1UEBxMETGltYTEfMB0GA1UEChMWQ29ycG9yYWNpb24gU2xpbiBTLkEuQzEZMBcGA1UECxMQUlVDOiAyMDUwODYyMjMyNjFBMBwGA1UEAxMVRGVubmllIFphcGF0YSBUb21hc3RvMCEGCSqGSIb3DQEJARYUZGV6YXBhdGFAc2xpbi5jb20ucGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCir0HEIBfkBlVqg3/dPOk9U5g49OK7d7Xf9lDWPjAJlOjsBzARoh+4W20BmWVwQGKvrSgnxLo0DYfoVyoLG5dazktoyW8dS+KYhrjYYAZzYIXpDWpyx51mOsyWT8hxYWCESfFap+NVeeqR/cUHCsNsx29fd2xQXynMqR1HN5Wrh57i04ICrG2ru8Uk+qCZ+s07BEkxxuJWi4DPm4xAlYW9sPHOA50qIg548VLYvh7CW195zCNqfE+bKYSOteXJ4jvc7i4OESz2nzZxpZ5nFk6uLGZGKZSv6fGH/XcC7cedP8zJENrAa+dQ4+arAfRnHTgrLnbelPU8NbVFNyxHJmQpAgMBAAGjggGFMIIBgTAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMEIGA1UdIAQ7MDkwNwYLYIZIAYb6bAoBBAIwKDAmBggrBgEFBQcCARYaaHR0cDovL3d3dy5lbnRydXN0Lm5ldC9ycGEwagYIKwYBBQUHAQEEXjBcMCMGCCsGAQUFBzABhhdodHRwOi8vb2NzcC5lbnRydXN0Lm5ldDA1BggrBgEFBQcwAoYpaHR0cDovL2FpYS5lbnRydXN0Lm5ldC8yMDQ4Y2xhc3Myc2hhMi5jZXIwNAYDVR0fBC0wKzApoCegJYYjaHR0cDovL2NybC5lbnRydXN0Lm5ldC9jbGFzczJjYS5jcmwwHwYDVR0RBBgwFoEUZGV6YXBhdGFAc2xpbi5jb20ucGUwHwYDVR0jBBgwFoAUCZGluunyLip1381+/nfK8t5rmyQwHQYDVR0OBBYEFEFsRfmeZcBvqh23c4Hcapq970J1MAkGA1UdEwQCMAAwDQYJKoZIhvcNAQELBQADggEBAJ5GHLQAi4t80cADPx1Hp0gPs336o3rv9Rbcf58t8qc+4AiYRKiodGRHUTZbgVI7MahSHl8NUSHrePi4ZG/BWOumlaXaK/8cmNA+2fNxGwuJZFNLSoGe12DOc3AdbdO9yRgW8d+G41xSZQDd0go0M64VKzxwu3vMA/klBXmsna6JzSO1/QQRG+sEwkov6lumBM0nOuuTfAYoGa5jwAzVoiG4Ql00NwvOMp/vEQqeZsQVz7dOyHAG42HeJWLgPGXXBNebvn5sRRR/ahsZXJ3hLovgDr/00XPns4ZGy9ftgoY4qNSaik5WGFkvB8/Ofln/Jj/QOZsVtAf05BVjQhZev9Y=</X509Certificate></X509Data></KeyInfo></ds:Signature></ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+	<cbc:CustomizationID>1.1</cbc:CustomizationID>
+	<cbc:ID>F001-00000001</cbc:ID>
+	<cbc:IssueDate>2018-04-17</cbc:IssueDate>
+	<cbc:InvoiceTypeCode>01</cbc:InvoiceTypeCode>
+	<cbc:DocumentCurrencyCode>USD</cbc:DocumentCurrencyCode>
+	<cac:Signature>
+		<cbc:ID>IDSign20302241598</cbc:ID>
+		<cac:SignatoryParty>
+			<cac:PartyIdentification>
+				<cbc:ID>20302241598</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name><![CDATA[KOMATSU]]></cbc:Name>
+			</cac:PartyName>
+		</cac:SignatoryParty>
+		<cac:DigitalSignatureAttachment>
+			<cac:ExternalReference>
+				<cbc:URI>#signature20302241598</cbc:URI>
+			</cac:ExternalReference>
+		</cac:DigitalSignatureAttachment>
+	</cac:Signature>
+	<cac:AccountingSupplierParty>
+		<cbc:CustomerAssignedAccountID>20302241598</cbc:CustomerAssignedAccountID>
+		<cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+		<cac:Party>
+			<cac:PartyName>
+				<cbc:Name><![CDATA[K L M]]></cbc:Name>
+			</cac:PartyName>
+			<cac:PostalAddress>
+				<cbc:ID>150140</cbc:ID>
+				<cbc:StreetName><![CDATA[AV. DEL PINAR NRO. 180 INT. 801 URB. CHACARILLA DEL ESTANQUE (PISO8) LIMA - LIMA - SANTIAGO DE SURCO]]></cbc:StreetName>
+				<cbc:CitySubdivisionName><![CDATA[-]]></cbc:CitySubdivisionName>
+				<cbc:CityName><![CDATA[LIMA]]></cbc:CityName>
+				<cbc:CountrySubentity><![CDATA[LIMA]]></cbc:CountrySubentity>
+				<cbc:District><![CDATA[SANTIAGO DE SURCO]]></cbc:District>
+				<cac:Country>
+					<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName><![CDATA[KOMATSU]]></cbc:RegistrationName>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:AccountingSupplierParty>
+	<cac:AccountingCustomerParty>
+		<cbc:CustomerAssignedAccountID>20100066867</cbc:CustomerAssignedAccountID>
+		<cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+		<cac:Party>
+			<cac:PartyName>
+				<cbc:Name><![CDATA[MSA DEL PERU S.A.C.]]></cbc:Name>
+			</cac:PartyName>
+			<cac:PostalAddress>
+				<cbc:ID>150103</cbc:ID>
+				<cbc:StreetName><![CDATA[CAL. LOS TELARES NRO. 139 URB. VULCANO]]></cbc:StreetName>
+				<cbc:CitySubdivisionName><![CDATA[-]]></cbc:CitySubdivisionName>
+				<cbc:CityName><![CDATA[Lima]]></cbc:CityName>
+				<cbc:CountrySubentity><![CDATA[Lima]]></cbc:CountrySubentity>
+				<cbc:District><![CDATA[Ate]]></cbc:District>
+				<cac:Country>
+					<cbc:IdentificationCode>PE</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName><![CDATA[MSA DEL PERU S.A.C.]]></cbc:RegistrationName>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:AccountingCustomerParty>
+	<cac:TaxTotal>
+		<cbc:TaxAmount currencyID="USD">3.42</cbc:TaxAmount>
+		<cac:TaxSubtotal>
+			<cbc:TaxAmount currencyID="USD">3.42</cbc:TaxAmount>
+			<cac:TaxCategory>
+				<cac:TaxScheme>
+					<cbc:ID>1000</cbc:ID>
+					<cbc:Name>IGV</cbc:Name>
+					<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+				</cac:TaxScheme>
+			</cac:TaxCategory>
+		</cac:TaxSubtotal>
+	</cac:TaxTotal>
+	<cac:LegalMonetaryTotal>
+		<cbc:PayableAmount currencyID="USD">22.42</cbc:PayableAmount>
+	</cac:LegalMonetaryTotal>
+	<cac:InvoiceLine>
+		<cbc:ID>1</cbc:ID>
+		<cbc:InvoicedQuantity unitCode="NIU">1</cbc:InvoicedQuantity>
+		<cbc:LineExtensionAmount currencyID="USD">20.00</cbc:LineExtensionAmount>
+		<cac:PricingReference>
+			<cac:AlternativeConditionPrice>
+				<cbc:PriceAmount currencyID="USD">20.00</cbc:PriceAmount>
+				<cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+			</cac:AlternativeConditionPrice>
+		</cac:PricingReference>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxableAmount currencyID="USD">0.00</cbc:TaxableAmount>
+				<cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+				<cbc:Percent>18.00</cbc:Percent>
+				<cac:TaxCategory>
+					<cbc:TaxExemptionReasonCode>30</cbc:TaxExemptionReasonCode>
+					<cac:TaxScheme>
+						<cbc:ID>1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+		<cac:Item>
+			<cbc:Description><![CDATA[GASTOS DE DESADUANAJE]]></cbc:Description>
+			<cac:SellersItemIdentification>
+				<cbc:ID><![CDATA[4020100001]]></cbc:ID>
+			</cac:SellersItemIdentification>
+		</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="USD">20.00</cbc:PriceAmount>
+		</cac:Price>
+	</cac:InvoiceLine>
+</Invoice>

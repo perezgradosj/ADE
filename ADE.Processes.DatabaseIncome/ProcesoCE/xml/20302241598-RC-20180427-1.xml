@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<SummaryDocuments xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns="urn:sunat:names:specification:ubl:peru:schema:xsd:SummaryDocuments-1">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent><ds:Signature Id="SignatureSP"><SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>yLUlnu9JS25p3XYuee/c1S80B9U=</DigestValue></Reference></SignedInfo><SignatureValue xmlns="http://www.w3.org/2000/09/xmldsig#">NlNdq7bTbuVxN+SESNO0bIP2340L9dvxvPt9rVjQ3MFa+AZ6zv9EAuDfAvwQnNv21HbY1VrBs3xevVngTl9BKd7LSEUY4xJlLfVYBtnRYA+idCKsSdW+vlN0OxI0Q2mN7dMekwDbDUeb5wUITmW7dddSvUK3FU0vDNL7QY/1+b3h7xw9ktYogNXgzfKAksMQCsZQWY3XA26z3t4q2V8zXxZcMaCJKUKiGGAwhGS+PRg4oYK1SFl9wnWmt5oGk1fQGFGmcBoFKSzIkLrINODs4vkR9DD5RE38okPm7FjsFpteVTWxhcPVxJgU7IQxzsc4pEZ/MHW3+m1wwxbd9lRizA==</SignatureValue><KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><X509Data><X509SubjectName>CN=Dennie Zapata Tomasto + E=dezapata@slin.com.pe, OU=RUC: 20508622326, O=Corporacion Slin S.A.C, L=Lima, C=PE</X509SubjectName><X509Certificate>MIIFUzCCBDugAwIBAgIQYZ2F/j6ZSUsAAAAATDW08DANBgkqhkiG9w0BAQsFADCBpTELMAkGA1UEBhMCVVMxFjAUBgNVBAoTDUVudHJ1c3QsIEluYy4xOTA3BgNVBAsTMHd3dy5lbnRydXN0Lm5ldC9DUFMgaXMgaW5jb3Jwb3JhdGVkIGJ5IHJlZmVyZW5jZTEfMB0GA1UECxMWKGMpIDIwMTAgRW50cnVzdCwgSW5jLjEiMCAGA1UEAxMZRW50cnVzdCBDbGFzcyAyIENsaWVudCBDQTAeFw0xNzA1MDMxODQyMTRaFw0xODA1MDMxOTEyMTJaMIGbMQswCQYDVQQGEwJQRTENMAsGA1UEBxMETGltYTEfMB0GA1UEChMWQ29ycG9yYWNpb24gU2xpbiBTLkEuQzEZMBcGA1UECxMQUlVDOiAyMDUwODYyMjMyNjFBMBwGA1UEAxMVRGVubmllIFphcGF0YSBUb21hc3RvMCEGCSqGSIb3DQEJARYUZGV6YXBhdGFAc2xpbi5jb20ucGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCir0HEIBfkBlVqg3/dPOk9U5g49OK7d7Xf9lDWPjAJlOjsBzARoh+4W20BmWVwQGKvrSgnxLo0DYfoVyoLG5dazktoyW8dS+KYhrjYYAZzYIXpDWpyx51mOsyWT8hxYWCESfFap+NVeeqR/cUHCsNsx29fd2xQXynMqR1HN5Wrh57i04ICrG2ru8Uk+qCZ+s07BEkxxuJWi4DPm4xAlYW9sPHOA50qIg548VLYvh7CW195zCNqfE+bKYSOteXJ4jvc7i4OESz2nzZxpZ5nFk6uLGZGKZSv6fGH/XcC7cedP8zJENrAa+dQ4+arAfRnHTgrLnbelPU8NbVFNyxHJmQpAgMBAAGjggGFMIIBgTAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMEIGA1UdIAQ7MDkwNwYLYIZIAYb6bAoBBAIwKDAmBggrBgEFBQcCARYaaHR0cDovL3d3dy5lbnRydXN0Lm5ldC9ycGEwagYIKwYBBQUHAQEEXjBcMCMGCCsGAQUFBzABhhdodHRwOi8vb2NzcC5lbnRydXN0Lm5ldDA1BggrBgEFBQcwAoYpaHR0cDovL2FpYS5lbnRydXN0Lm5ldC8yMDQ4Y2xhc3Myc2hhMi5jZXIwNAYDVR0fBC0wKzApoCegJYYjaHR0cDovL2NybC5lbnRydXN0Lm5ldC9jbGFzczJjYS5jcmwwHwYDVR0RBBgwFoEUZGV6YXBhdGFAc2xpbi5jb20ucGUwHwYDVR0jBBgwFoAUCZGluunyLip1381+/nfK8t5rmyQwHQYDVR0OBBYEFEFsRfmeZcBvqh23c4Hcapq970J1MAkGA1UdEwQCMAAwDQYJKoZIhvcNAQELBQADggEBAJ5GHLQAi4t80cADPx1Hp0gPs336o3rv9Rbcf58t8qc+4AiYRKiodGRHUTZbgVI7MahSHl8NUSHrePi4ZG/BWOumlaXaK/8cmNA+2fNxGwuJZFNLSoGe12DOc3AdbdO9yRgW8d+G41xSZQDd0go0M64VKzxwu3vMA/klBXmsna6JzSO1/QQRG+sEwkov6lumBM0nOuuTfAYoGa5jwAzVoiG4Ql00NwvOMp/vEQqeZsQVz7dOyHAG42HeJWLgPGXXBNebvn5sRRR/ahsZXJ3hLovgDr/00XPns4ZGy9ftgoY4qNSaik5WGFkvB8/Ofln/Jj/QOZsVtAf05BVjQhZev9Y=</X509Certificate></X509Data></KeyInfo></ds:Signature></ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+	<cbc:CustomizationID>1.1</cbc:CustomizationID>
+	<cbc:ID>RC-20180427-1</cbc:ID>
+	<cbc:ReferenceDate>2018-04-25</cbc:ReferenceDate>
+	<cbc:IssueDate>2018-04-27</cbc:IssueDate>
+	<cbc:Note><![CDATA[CONSOLIDADO DE BOLETAS DE VENTA - KOMATSU - MITSUI MAQUINARIAS]]></cbc:Note>
+	<cac:Signature>
+		<cbc:ID>RC-20180427-1</cbc:ID>
+		<cac:SignatoryParty>
+			<cac:PartyIdentification>
+				<cbc:ID>20302241598</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name><![CDATA[KOMATSU - MITSUI MAQUINARIAS]]></cbc:Name>
+			</cac:PartyName>
+		</cac:SignatoryParty>
+		<cac:DigitalSignatureAttachment>
+			<cac:ExternalReference>
+				<cbc:URI>RC-20180427-1</cbc:URI>
+			</cac:ExternalReference>
+		</cac:DigitalSignatureAttachment>
+	</cac:Signature>
+	<cac:AccountingSupplierParty>
+		<cbc:CustomerAssignedAccountID>20302241598</cbc:CustomerAssignedAccountID>
+		<cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+		<cac:Party>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName><![CDATA[KOMATSU - MITSUI MAQUINARIAS]]></cbc:RegistrationName>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:AccountingSupplierParty>
+	<sac:SummaryDocumentsLine>
+		<cbc:LineID>1</cbc:LineID>
+		<cbc:DocumentTypeCode>03</cbc:DocumentTypeCode>
+		<cbc:ID>B056-20</cbc:ID>
+		<cac:AccountingCustomerParty>
+			<cbc:CustomerAssignedAccountID>EXT00001234</cbc:CustomerAssignedAccountID>
+			<cbc:AdditionalAccountID>0</cbc:AdditionalAccountID>
+		</cac:AccountingCustomerParty>
+		<cac:Status>
+			<cbc:ConditionCode>1</cbc:ConditionCode>
+		</cac:Status>
+		<sac:TotalAmount currencyID="USD">8850.00</sac:TotalAmount>
+		<sac:BillingPayment>
+			<cbc:PaidAmount currencyID="USD">7500.00</cbc:PaidAmount>
+			<cbc:InstructionID>01</cbc:InstructionID>
+		</sac:BillingPayment>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="USD">1350.00</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxAmount currencyID="USD">1350.00</cbc:TaxAmount>
+				<cac:TaxCategory>
+					<cac:TaxScheme>
+						<cbc:ID>1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+				<cac:TaxCategory>
+					<cac:TaxScheme>
+						<cbc:ID>2000</cbc:ID>
+						<cbc:Name>ISC</cbc:Name>
+						<cbc:TaxTypeCode>EXC</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+		</cac:TaxTotal>
+	</sac:SummaryDocumentsLine>
+</SummaryDocuments>

@@ -1,0 +1,243 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADE.Configurations.Entities", "ADE.Configurations.Entities\ADE.Configurations.Entities.csproj", "{7FF2DDE0-0C2C-4973-9B11-24B4CD1C263A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADE.Configurations.DataAccess", "ADE.Configurations.DataAccess\ADE.Configurations.DataAccess.csproj", "{4295945A-E74A-4B17-A9FD-D6AA9CB5D776}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Processes", "Processes", "{5995B9D5-4FCE-41BE-9A1B-23BC463E675A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADE.Processes.DatabaseIncome", "ADE.Processes.DatabaseIncome\ADE.Processes.DatabaseIncome.csproj", "{4DDD75E6-22CE-45AD-AFB9-245E891D0A17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F9901377-ABEC-4D90-BEE3-1C3E08B180AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{C418CC7B-D300-4CAF-BB49-78CFDC092086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADE.Configurations.Objects", "ADE.Configurations.Objects\ADE.Configurations.Objects.csproj", "{E872D612-E41D-416D-96E7-C760A341D19C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADE.Processes.SunatDelivery", "ADE.Processes.SunatDelivery\ADE.Processes.SunatDelivery.csproj", "{B8966B7F-7DB0-4FBF-98C1-BB4298E25AB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADE.Services.Monitor", "ADE.Services.Monitor\ADE.Services.Monitor.csproj", "{7973C8D7-997E-4E49-B6EC-F7A16363ECAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADE.Services.SunatDelivery", "ADE.Services.SunatDelivery\ADE.Services.SunatDelivery.csproj", "{2C13339D-3A97-4C0C-9366-14E8BFF431D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADE.Services.SummaryDelivery", "ADE.Services.SummaryDelivery\ADE.Services.SummaryDelivery.csproj", "{334CA0FA-F42B-4051-B04F-68C88A1CA22E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extras", "Extras", "{4BC3DCDC-9AD9-4C20-8C85-FFB4DF2295BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADE.Extras.ServiceManager", "ADE.Extras.ServiceManager\ADE.Extras.ServiceManager.csproj", "{0364C523-1995-4A17-A659-F1B69D697A53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebServices", "WebServices", "{3BEEE831-783E-44B3-9481-CBE4E679D303}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{09259F36-E9E9-4C5D-9231-BF3E0C87AEF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADE.Testing.Summary", "ADE.Testing.Summary\ADE.Testing.Summary.csproj", "{F9B08C5F-565F-4466-99C6-724C6811E1A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADE.WebServices.Resumen", "ADE.WebServices.Resumen\ADE.WebServices.Resumen.csproj", "{96489BA4-D5FD-4E1B-846D-36FC888E8E9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Branches", "Branches", "{2821B773-229E-45DF-9393-E6387A342174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADE.Testing.Conectivity", "ADE.Testing.Conectivity\ADE.Testing.Conectivity.csproj", "{0E8B585A-EDEE-4C0B-89A2-3EF71872D40E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADE.Extras.PDFGenerator", "ADE.Extras.PDFGenerator\ADE.Extras.PDFGenerator.csproj", "{A86FF7EE-AE55-4AFA-BAC0-9BEFB7E8A8CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADE.Services.Getter", "ADE.Services.Getter\ADE.Services.Getter.csproj", "{F86AC1B2-7F0F-4C2C-8141-B9A8EE4F249A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADE.Extras.Getter", "ADE.Extras.Getter\ADE.Extras.Getter.csproj", "{F29E6C50-8D17-4A86-AEBD-E0BE4ECA9D52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADE.Extras.MailNotifier", "ADE.Extras.MailNotifier\ADE.Extras.MailNotifier.csproj", "{B48E02F6-5085-438F-976B-2A22FC04E9E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OSE", "OSE", "{DC22E551-8943-4085-A4C5-EC61D6D98A52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebServices", "WebServices", "{D67E642F-AB5D-4A69-8416-A23B1AF4F35D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADE.Extras.Common", "ADE.Extras.Common\ADE.Extras.Common.csproj", "{49B5F2AD-66C6-426B-9D4B-C4D9D6069514}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{64E18F4D-3ACF-4A32-8315-C4074C80A747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host.IIS", "Host\Host.IIS\Host.IIS.csproj", "{0B19505E-5F78-4D01-9F01-7A4CA7E57A52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FF2DDE0-0C2C-4973-9B11-24B4CD1C263A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF2DDE0-0C2C-4973-9B11-24B4CD1C263A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF2DDE0-0C2C-4973-9B11-24B4CD1C263A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF2DDE0-0C2C-4973-9B11-24B4CD1C263A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4295945A-E74A-4B17-A9FD-D6AA9CB5D776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4295945A-E74A-4B17-A9FD-D6AA9CB5D776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4295945A-E74A-4B17-A9FD-D6AA9CB5D776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4295945A-E74A-4B17-A9FD-D6AA9CB5D776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DDD75E6-22CE-45AD-AFB9-245E891D0A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DDD75E6-22CE-45AD-AFB9-245E891D0A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DDD75E6-22CE-45AD-AFB9-245E891D0A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DDD75E6-22CE-45AD-AFB9-245E891D0A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E872D612-E41D-416D-96E7-C760A341D19C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E872D612-E41D-416D-96E7-C760A341D19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E872D612-E41D-416D-96E7-C760A341D19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E872D612-E41D-416D-96E7-C760A341D19C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8966B7F-7DB0-4FBF-98C1-BB4298E25AB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8966B7F-7DB0-4FBF-98C1-BB4298E25AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8966B7F-7DB0-4FBF-98C1-BB4298E25AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8966B7F-7DB0-4FBF-98C1-BB4298E25AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7973C8D7-997E-4E49-B6EC-F7A16363ECAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7973C8D7-997E-4E49-B6EC-F7A16363ECAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7973C8D7-997E-4E49-B6EC-F7A16363ECAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7973C8D7-997E-4E49-B6EC-F7A16363ECAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C13339D-3A97-4C0C-9366-14E8BFF431D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C13339D-3A97-4C0C-9366-14E8BFF431D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C13339D-3A97-4C0C-9366-14E8BFF431D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C13339D-3A97-4C0C-9366-14E8BFF431D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{334CA0FA-F42B-4051-B04F-68C88A1CA22E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334CA0FA-F42B-4051-B04F-68C88A1CA22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334CA0FA-F42B-4051-B04F-68C88A1CA22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334CA0FA-F42B-4051-B04F-68C88A1CA22E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0364C523-1995-4A17-A659-F1B69D697A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0364C523-1995-4A17-A659-F1B69D697A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0364C523-1995-4A17-A659-F1B69D697A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0364C523-1995-4A17-A659-F1B69D697A53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B08C5F-565F-4466-99C6-724C6811E1A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B08C5F-565F-4466-99C6-724C6811E1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B08C5F-565F-4466-99C6-724C6811E1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B08C5F-565F-4466-99C6-724C6811E1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96489BA4-D5FD-4E1B-846D-36FC888E8E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96489BA4-D5FD-4E1B-846D-36FC888E8E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96489BA4-D5FD-4E1B-846D-36FC888E8E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96489BA4-D5FD-4E1B-846D-36FC888E8E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E8B585A-EDEE-4C0B-89A2-3EF71872D40E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8B585A-EDEE-4C0B-89A2-3EF71872D40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8B585A-EDEE-4C0B-89A2-3EF71872D40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8B585A-EDEE-4C0B-89A2-3EF71872D40E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A86FF7EE-AE55-4AFA-BAC0-9BEFB7E8A8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86FF7EE-AE55-4AFA-BAC0-9BEFB7E8A8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86FF7EE-AE55-4AFA-BAC0-9BEFB7E8A8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86FF7EE-AE55-4AFA-BAC0-9BEFB7E8A8CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F86AC1B2-7F0F-4C2C-8141-B9A8EE4F249A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86AC1B2-7F0F-4C2C-8141-B9A8EE4F249A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86AC1B2-7F0F-4C2C-8141-B9A8EE4F249A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86AC1B2-7F0F-4C2C-8141-B9A8EE4F249A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F29E6C50-8D17-4A86-AEBD-E0BE4ECA9D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F29E6C50-8D17-4A86-AEBD-E0BE4ECA9D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F29E6C50-8D17-4A86-AEBD-E0BE4ECA9D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F29E6C50-8D17-4A86-AEBD-E0BE4ECA9D52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48E02F6-5085-438F-976B-2A22FC04E9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48E02F6-5085-438F-976B-2A22FC04E9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48E02F6-5085-438F-976B-2A22FC04E9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48E02F6-5085-438F-976B-2A22FC04E9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49B5F2AD-66C6-426B-9D4B-C4D9D6069514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49B5F2AD-66C6-426B-9D4B-C4D9D6069514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49B5F2AD-66C6-426B-9D4B-C4D9D6069514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49B5F2AD-66C6-426B-9D4B-C4D9D6069514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B19505E-5F78-4D01-9F01-7A4CA7E57A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B19505E-5F78-4D01-9F01-7A4CA7E57A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B19505E-5F78-4D01-9F01-7A4CA7E57A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B19505E-5F78-4D01-9F01-7A4CA7E57A52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FF2DDE0-0C2C-4973-9B11-24B4CD1C263A} = {C418CC7B-D300-4CAF-BB49-78CFDC092086}
+		{4295945A-E74A-4B17-A9FD-D6AA9CB5D776} = {C418CC7B-D300-4CAF-BB49-78CFDC092086}
+		{4DDD75E6-22CE-45AD-AFB9-245E891D0A17} = {5995B9D5-4FCE-41BE-9A1B-23BC463E675A}
+		{E872D612-E41D-416D-96E7-C760A341D19C} = {C418CC7B-D300-4CAF-BB49-78CFDC092086}
+		{B8966B7F-7DB0-4FBF-98C1-BB4298E25AB0} = {5995B9D5-4FCE-41BE-9A1B-23BC463E675A}
+		{7973C8D7-997E-4E49-B6EC-F7A16363ECAF} = {F9901377-ABEC-4D90-BEE3-1C3E08B180AF}
+		{2C13339D-3A97-4C0C-9366-14E8BFF431D8} = {F9901377-ABEC-4D90-BEE3-1C3E08B180AF}
+		{334CA0FA-F42B-4051-B04F-68C88A1CA22E} = {F9901377-ABEC-4D90-BEE3-1C3E08B180AF}
+		{0364C523-1995-4A17-A659-F1B69D697A53} = {4BC3DCDC-9AD9-4C20-8C85-FFB4DF2295BA}
+		{F9B08C5F-565F-4466-99C6-724C6811E1A3} = {09259F36-E9E9-4C5D-9231-BF3E0C87AEF7}
+		{96489BA4-D5FD-4E1B-846D-36FC888E8E9A} = {3BEEE831-783E-44B3-9481-CBE4E679D303}
+		{0E8B585A-EDEE-4C0B-89A2-3EF71872D40E} = {09259F36-E9E9-4C5D-9231-BF3E0C87AEF7}
+		{A86FF7EE-AE55-4AFA-BAC0-9BEFB7E8A8CE} = {4BC3DCDC-9AD9-4C20-8C85-FFB4DF2295BA}
+		{F86AC1B2-7F0F-4C2C-8141-B9A8EE4F249A} = {F9901377-ABEC-4D90-BEE3-1C3E08B180AF}
+		{F29E6C50-8D17-4A86-AEBD-E0BE4ECA9D52} = {4BC3DCDC-9AD9-4C20-8C85-FFB4DF2295BA}
+		{B48E02F6-5085-438F-976B-2A22FC04E9E3} = {4BC3DCDC-9AD9-4C20-8C85-FFB4DF2295BA}
+		{D67E642F-AB5D-4A69-8416-A23B1AF4F35D} = {DC22E551-8943-4085-A4C5-EC61D6D98A52}
+		{49B5F2AD-66C6-426B-9D4B-C4D9D6069514} = {4BC3DCDC-9AD9-4C20-8C85-FFB4DF2295BA}
+		{0B19505E-5F78-4D01-9F01-7A4CA7E57A52} = {64E18F4D-3ACF-4A32-8315-C4074C80A747}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 19
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dzapata.visualstudio.com/
+		SccProjectUniqueName0 = ADE.Services.Getter\\ADE.Services.Getter.csproj
+		SccProjectTopLevelParentUniqueName0 = ADE.sln
+		SccProjectName0 = ADE.Services.Getter
+		SccLocalPath0 = ADE.Services.Getter
+		SccProjectUniqueName1 = ADE.Services.Monitor\\ADE.Services.Monitor.csproj
+		SccProjectTopLevelParentUniqueName1 = ADE.sln
+		SccProjectName1 = ADE.Services.Monitor
+		SccLocalPath1 = ADE.Services.Monitor
+		SccProjectUniqueName2 = ADE.Services.SummaryDelivery\\ADE.Services.SummaryDelivery.csproj
+		SccProjectTopLevelParentUniqueName2 = ADE.sln
+		SccProjectName2 = ADE.Services.SummaryDelivery
+		SccLocalPath2 = ADE.Services.SummaryDelivery
+		SccProjectUniqueName3 = ADE.Services.SunatDelivery\\ADE.Services.SunatDelivery.csproj
+		SccProjectTopLevelParentUniqueName3 = ADE.sln
+		SccProjectName3 = ADE.Services.SunatDelivery
+		SccLocalPath3 = ADE.Services.SunatDelivery
+		SccProjectUniqueName4 = ADE.Testing.Conectivity\\ADE.Testing.Conectivity.csproj
+		SccProjectTopLevelParentUniqueName4 = ADE.sln
+		SccProjectName4 = ADE.Testing.Conectivity
+		SccLocalPath4 = ADE.Testing.Conectivity
+		SccProjectUniqueName5 = ADE.Testing.Summary\\ADE.Testing.Summary.csproj
+		SccProjectTopLevelParentUniqueName5 = ADE.sln
+		SccProjectName5 = ADE.Testing.Summary
+		SccLocalPath5 = ADE.Testing.Summary
+		SccProjectUniqueName6 = ADE.WebServices.Resumen\\ADE.WebServices.Resumen.csproj
+		SccProjectTopLevelParentUniqueName6 = ADE.sln
+		SccProjectName6 = ADE.WebServices.Resumen
+		SccLocalPath6 = ADE.WebServices.Resumen
+		SccProjectUniqueName7 = Host\\Host.IIS\\Host.IIS.csproj
+		SccProjectTopLevelParentUniqueName7 = ADE.sln
+		SccProjectName7 = Host/Host.IIS
+		SccLocalPath7 = Host\\Host.IIS
+		SccLocalPath8 = .
+		SccProjectUniqueName9 = ADE.Configurations.DataAccess\\ADE.Configurations.DataAccess.csproj
+		SccProjectTopLevelParentUniqueName9 = ADE.sln
+		SccProjectName9 = ADE.Configurations.DataAccess
+		SccLocalPath9 = ADE.Configurations.DataAccess
+		SccProjectUniqueName10 = ADE.Configurations.Entities\\ADE.Configurations.Entities.csproj
+		SccProjectTopLevelParentUniqueName10 = ADE.sln
+		SccProjectName10 = ADE.Configurations.Entities
+		SccLocalPath10 = ADE.Configurations.Entities
+		SccProjectUniqueName11 = ADE.Configurations.Objects\\ADE.Configurations.Objects.csproj
+		SccProjectTopLevelParentUniqueName11 = ADE.sln
+		SccProjectName11 = ADE.Configurations.Objects
+		SccLocalPath11 = ADE.Configurations.Objects
+		SccProjectUniqueName12 = ADE.Extras.Common\\ADE.Extras.Common.csproj
+		SccProjectTopLevelParentUniqueName12 = ADE.sln
+		SccProjectName12 = ADE.Extras.Common
+		SccLocalPath12 = ADE.Extras.Common
+		SccProjectUniqueName13 = ADE.Extras.Getter\\ADE.Extras.Getter.csproj
+		SccProjectTopLevelParentUniqueName13 = ADE.sln
+		SccProjectName13 = ADE.Extras.Getter
+		SccLocalPath13 = ADE.Extras.Getter
+		SccProjectUniqueName14 = ADE.Extras.MailNotifier\\ADE.Extras.MailNotifier.csproj
+		SccProjectTopLevelParentUniqueName14 = ADE.sln
+		SccProjectName14 = ADE.Extras.MailNotifier
+		SccLocalPath14 = ADE.Extras.MailNotifier
+		SccProjectUniqueName15 = ADE.Extras.PDFGenerator\\ADE.Extras.PDFGenerator.csproj
+		SccProjectTopLevelParentUniqueName15 = ADE.sln
+		SccProjectName15 = ADE.Extras.PDFGenerator
+		SccLocalPath15 = ADE.Extras.PDFGenerator
+		SccProjectUniqueName16 = ADE.Extras.ServiceManager\\ADE.Extras.ServiceManager.csproj
+		SccProjectTopLevelParentUniqueName16 = ADE.sln
+		SccProjectName16 = ADE.Extras.ServiceManager
+		SccLocalPath16 = ADE.Extras.ServiceManager
+		SccProjectUniqueName17 = ADE.Processes.DatabaseIncome\\ADE.Processes.DatabaseIncome.csproj
+		SccProjectTopLevelParentUniqueName17 = ADE.sln
+		SccProjectName17 = ADE.Processes.DatabaseIncome
+		SccLocalPath17 = ADE.Processes.DatabaseIncome
+		SccProjectUniqueName18 = ADE.Processes.SunatDelivery\\ADE.Processes.SunatDelivery.csproj
+		SccProjectTopLevelParentUniqueName18 = ADE.sln
+		SccProjectName18 = ADE.Processes.SunatDelivery
+		SccLocalPath18 = ADE.Processes.SunatDelivery
+	EndGlobalSection
+EndGlobal
